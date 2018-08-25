@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta http-equiv = "Content-Type" content = "text/html; charset=utf8">
+        <title>OC与JS交互</title>
+        <script language = "javascript">
+                
+            function loadURL(url) {
+                window.location.href = url;
+            }
+            
+            //! JS登录成功后loadURL并传参token
+            function loginSucceed() {
+                loadURL("qi_jsAction://loginSucceed?token=js_tokenString");
+            }
+            
+            //! JS调用OC的登录功能
+            function loginBtnClicked() {
+                loadURL("qi_jsAction://loginBtnClicked");
+            }
+            
+            //! OC调用JS入口
+            function loginCallback(token) {
+                document.getElementById("returnValue").innerHTML = token;
+            }
+            
+        </script>
+    </head>
+    
+    <body>
+        <h3>功能按钮</h3>
+        <button onclick = "loginSucceed()" style = "font-size: 18px;">模拟JS登录成功后loadURL并传参token</button>
+        <br> </br>
+        <button onclick = "loginBtnClicked()" style = "font-size: 18px;">模拟JS调用OC的登录功能</button>
+        <br> </br>
+        
+        <h3>回调数据</h3>
+        <div id = "returnValue" style = "font-size: 30px; color: #000000; border: 1px #000000 dotted; height: 100px;">
+        </div>
+    </body>
+    
+</html>
+

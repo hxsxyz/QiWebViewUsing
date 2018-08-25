@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063C179C212ABA88007CC923 /* QiWebViewUsing.html in Resources */ = {isa = PBXBuildFile; fileRef = 063C179B212ABA88007CC923 /* QiWebViewUsing.html */; };
 		06D1701E211EBC4B00220522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D1701D211EBC4B00220522 /* AppDelegate.m */; };
 		06D17021211EBC4B00220522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D17020211EBC4B00220522 /* ViewController.m */; };
 		06D17026211EBC4D00220522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D17025211EBC4D00220522 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		063C179B212ABA88007CC923 /* QiWebViewUsing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = QiWebViewUsing.html; sourceTree = "<group>"; };
 		06D17019211EBC4B00220522 /* QiWebViewUsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiWebViewUsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D1701C211EBC4B00220522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06D1701D211EBC4B00220522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				06D17033211EC99100220522 /* UIWebViewController.m */,
 				06D17035211EC9A000220522 /* WKWebViewController.h */,
 				06D17036211EC9A000220522 /* WKWebViewController.m */,
+				063C179B212ABA88007CC923 /* QiWebViewUsing.html */,
 				06D17025211EBC4D00220522 /* Assets.xcassets */,
 				06D1702A211EBC4D00220522 /* Info.plist */,
 				06D1702B211EBC4D00220522 /* main.m */,
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D17026211EBC4D00220522 /* Assets.xcassets in Resources */,
+				063C179C212ABA88007CC923 /* QiWebViewUsing.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +273,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
 				INFOPLIST_FILE = QiWebViewUsing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = QiShare.QiWebViewUsing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.hxs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,12 +290,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
 				INFOPLIST_FILE = QiWebViewUsing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = QiShare.QiWebViewUsing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.hxs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
