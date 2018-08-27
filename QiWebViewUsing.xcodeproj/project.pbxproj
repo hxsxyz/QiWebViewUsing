@@ -8,16 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		063C179C212ABA88007CC923 /* QiWebViewUsing.html in Resources */ = {isa = PBXBuildFile; fileRef = 063C179B212ABA88007CC923 /* QiWebViewUsing.html */; };
+		06B02E952133CB630024177C /* UIWebViewInterceptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B02E942133CB630024177C /* UIWebViewInterceptController.m */; };
+		06B02E9B2133CBB20024177C /* UIWebViewJavaScriptCoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B02E9A2133CBB20024177C /* UIWebViewJavaScriptCoreController.m */; };
+		06B02E9E2133CBC70024177C /* WKWebViewInterceptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B02E9D2133CBC70024177C /* WKWebViewInterceptController.m */; };
+		06B02EA12133CBDA0024177C /* WKWebViewWebKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B02EA02133CBDA0024177C /* WKWebViewWebKitController.m */; };
 		06D1701E211EBC4B00220522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D1701D211EBC4B00220522 /* AppDelegate.m */; };
 		06D17021211EBC4B00220522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D17020211EBC4B00220522 /* ViewController.m */; };
 		06D17026211EBC4D00220522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D17025211EBC4D00220522 /* Assets.xcassets */; };
 		06D1702C211EBC4D00220522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D1702B211EBC4D00220522 /* main.m */; };
-		06D17034211EC99100220522 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D17033211EC99100220522 /* UIWebViewController.m */; };
-		06D17037211EC9A000220522 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D17036211EC9A000220522 /* WKWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		063C179B212ABA88007CC923 /* QiWebViewUsing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = QiWebViewUsing.html; sourceTree = "<group>"; };
+		06B02E932133CB630024177C /* UIWebViewInterceptController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewInterceptController.h; sourceTree = "<group>"; };
+		06B02E942133CB630024177C /* UIWebViewInterceptController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewInterceptController.m; sourceTree = "<group>"; };
+		06B02E992133CBB20024177C /* UIWebViewJavaScriptCoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewJavaScriptCoreController.h; sourceTree = "<group>"; };
+		06B02E9A2133CBB20024177C /* UIWebViewJavaScriptCoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewJavaScriptCoreController.m; sourceTree = "<group>"; };
+		06B02E9C2133CBC70024177C /* WKWebViewInterceptController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewInterceptController.h; sourceTree = "<group>"; };
+		06B02E9D2133CBC70024177C /* WKWebViewInterceptController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewInterceptController.m; sourceTree = "<group>"; };
+		06B02E9F2133CBDA0024177C /* WKWebViewWebKitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewWebKitController.h; sourceTree = "<group>"; };
+		06B02EA02133CBDA0024177C /* WKWebViewWebKitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewWebKitController.m; sourceTree = "<group>"; };
 		06D17019211EBC4B00220522 /* QiWebViewUsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiWebViewUsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D1701C211EBC4B00220522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06D1701D211EBC4B00220522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,10 +36,6 @@
 		06D17025211EBC4D00220522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D1702A211EBC4D00220522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06D1702B211EBC4D00220522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		06D17032211EC99100220522 /* UIWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
-		06D17033211EC99100220522 /* UIWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
-		06D17035211EC9A000220522 /* WKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
-		06D17036211EC9A000220522 /* WKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B02E8F2133CA830024177C /* UIWebView-Intercept */ = {
+			isa = PBXGroup;
+			children = (
+				06B02E932133CB630024177C /* UIWebViewInterceptController.h */,
+				06B02E942133CB630024177C /* UIWebViewInterceptController.m */,
+			);
+			path = "UIWebView-Intercept";
+			sourceTree = "<group>";
+		};
+		06B02E902133CA930024177C /* UIWebView-JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				06B02E992133CBB20024177C /* UIWebViewJavaScriptCoreController.h */,
+				06B02E9A2133CBB20024177C /* UIWebViewJavaScriptCoreController.m */,
+			);
+			path = "UIWebView-JavaScriptCore";
+			sourceTree = "<group>";
+		};
+		06B02E912133CA9F0024177C /* WKWebView-Intercept */ = {
+			isa = PBXGroup;
+			children = (
+				06B02E9C2133CBC70024177C /* WKWebViewInterceptController.h */,
+				06B02E9D2133CBC70024177C /* WKWebViewInterceptController.m */,
+			);
+			path = "WKWebView-Intercept";
+			sourceTree = "<group>";
+		};
+		06B02E922133CAEB0024177C /* WKWebView-WebKit */ = {
+			isa = PBXGroup;
+			children = (
+				06B02E9F2133CBDA0024177C /* WKWebViewWebKitController.h */,
+				06B02EA02133CBDA0024177C /* WKWebViewWebKitController.m */,
+			);
+			path = "WKWebView-WebKit";
+			sourceTree = "<group>";
+		};
 		06D17010211EBC4B00220522 = {
 			isa = PBXGroup;
 			children = (
@@ -66,12 +108,12 @@
 				06D1701D211EBC4B00220522 /* AppDelegate.m */,
 				06D1701F211EBC4B00220522 /* ViewController.h */,
 				06D17020211EBC4B00220522 /* ViewController.m */,
-				06D17032211EC99100220522 /* UIWebViewController.h */,
-				06D17033211EC99100220522 /* UIWebViewController.m */,
-				06D17035211EC9A000220522 /* WKWebViewController.h */,
-				06D17036211EC9A000220522 /* WKWebViewController.m */,
-				063C179B212ABA88007CC923 /* QiWebViewUsing.html */,
+				06B02E8F2133CA830024177C /* UIWebView-Intercept */,
+				06B02E902133CA930024177C /* UIWebView-JavaScriptCore */,
+				06B02E912133CA9F0024177C /* WKWebView-Intercept */,
+				06B02E922133CAEB0024177C /* WKWebView-WebKit */,
 				06D17025211EBC4D00220522 /* Assets.xcassets */,
+				063C179B212ABA88007CC923 /* QiWebViewUsing.html */,
 				06D1702A211EBC4D00220522 /* Info.plist */,
 				06D1702B211EBC4D00220522 /* main.m */,
 			);
@@ -147,11 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D17037211EC9A000220522 /* WKWebViewController.m in Sources */,
 				06D17021211EBC4B00220522 /* ViewController.m in Sources */,
+				06B02E952133CB630024177C /* UIWebViewInterceptController.m in Sources */,
+				06B02EA12133CBDA0024177C /* WKWebViewWebKitController.m in Sources */,
 				06D1702C211EBC4D00220522 /* main.m in Sources */,
 				06D1701E211EBC4B00220522 /* AppDelegate.m in Sources */,
-				06D17034211EC99100220522 /* UIWebViewController.m in Sources */,
+				06B02E9E2133CBC70024177C /* WKWebViewInterceptController.m in Sources */,
+				06B02E9B2133CBB20024177C /* UIWebViewJavaScriptCoreController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

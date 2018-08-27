@@ -1,20 +1,21 @@
 //
-//  UIWebViewController.m
+//  UIWebViewInterceptController.m
 //  QiWebViewUsing
 //
-//  Created by Xs·H on 2018/8/11.
+//  Created by huangxianshuai on 2018/8/27.
 //  Copyright © 2018年 Xs·H. All rights reserved.
 //
 
-#import "UIWebViewController.h"
+#import "UIWebViewInterceptController.h"
 
-@interface UIWebViewController () <UIWebViewDelegate>
+@interface UIWebViewInterceptController () <UIWebViewDelegate>
 
+//! UIWebView-webView
 @property (nonatomic, strong) UIWebView *webView;
 
 @end
 
-@implementation UIWebViewController
+@implementation UIWebViewInterceptController
 
 - (void)viewDidLoad {
     
@@ -24,6 +25,11 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.view.backgroundColor = [UIColor whiteColor];
     
+    // loginItem
+    UIBarButtonItem *loginItem = [[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:self action:@selector(login:)];
+    self.navigationItem.rightBarButtonItems = @[loginItem];
+    
+    // webView
     _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
     _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _webView.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
@@ -34,9 +40,19 @@
     [self.view addSubview:_webView];
     
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"QiWebViewUsing" withExtension:@"html"];
-    url = [NSURL URLWithString:@"https://i.360.cn/"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     [_webView loadRequest:request];
+}
+
+
+#pragma mark - Action functions
+
+- (void)login:(id)sender {
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSString *jsString = [NSString stringWithFormat:@"ocToJs('loginSucceed', 'oc_tokenString')"];
+        [self.webView stringByEvaluatingJavaScriptFromString:jsString];
+    });
 }
 
 
@@ -44,23 +60,9 @@
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
     
-    static NSString *loginSucceedString = @"qi_jsAction://loginSucceed";
-    static NSString *loginBtnClickedString = @"qi_jsAction://loginBtnClicked";
-    
-    if ([request.URL.absoluteString containsString:loginSucceedString]) {
-        NSString *message = [request.URL.absoluteString componentsSeparatedByString:@"?"].lastObject;
-        [self.class showAlertWithTitle:loginSucceedString message:message completion:nil];
+    if ([request.URL.scheme caseInsensitiveCompare:@"jsToOc"] == NSOrderedSame) {
+        [self.class showAlertWithTitle:request.URL.host message:request.URL.query cancelHandler:nil];
         return NO;
-    }
-    else if ([request.URL.absoluteString containsString:loginBtnClickedString]) {
-        [self.class showAlertWithTitle:loginBtnClickedString message:nil completion:^{
-            NSString *jsString = [NSString stringWithFormat:@"loginCallback('%@')", @"oc_tokenString"];
-            [self.webView stringByEvaluatingJavaScriptFromString:jsString];
-        }];
-        return NO;
-    }
-    else if ([request.URL.absoluteString hasPrefix:@"https://i.360.cn/login/wap?show_index=1"]) {
-        
     }
     
     return YES;
@@ -74,12 +76,12 @@
 
 #pragma mark - Util functions
 
-+ (void)showAlertWithTitle:(NSString *)title message:(NSString *)message completion:(void(^)(void))completion {
++ (void)showAlertWithTitle:(NSString *)title message:(NSString *)message cancelHandler:(void(^)(void))handler {
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        if (completion) {
-            completion();
+        if (handler) {
+            handler();
         }
     }];
     [alertController addAction:cancelAction];

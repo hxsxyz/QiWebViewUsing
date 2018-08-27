@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "UIWebViewController.h"
-#import "WKWebViewController.h"
+
+#import "UIWebViewInterceptController.h"
+#import "UIWebViewJavaScriptCoreController.h"
+
+#import "WKWebViewInterceptController.h"
+#import "WKWebViewWebKitController.h"
 
 @implementation ViewController
 
@@ -16,31 +20,55 @@
     
     [super viewDidLoad];
     
-    self.title = @"QiWebViewUsing";
+    self.title = @"QiShare";
     
-    UIButton *skipToUIWebViewButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    skipToUIWebViewButton.frame = CGRectMake(30.0, 300.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
-    [skipToUIWebViewButton setTitle:@"skipToUIWebViewController" forState:UIControlStateNormal];
-    [skipToUIWebViewButton addTarget:self action:@selector(skipToUIWebView:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:skipToUIWebViewButton];
+    UIButton *interceptButton_UI = [UIButton buttonWithType:UIButtonTypeSystem];
+    interceptButton_UI.frame = CGRectMake(30.0, 200.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    [interceptButton_UI setTitle:@"UIWebView-Intercept" forState:UIControlStateNormal];
+    [interceptButton_UI addTarget:self action:@selector(skipToUIWebView_intercept:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:interceptButton_UI];
     
-    UIButton *skipToWKWebViewButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    skipToWKWebViewButton.frame = CGRectMake(30.0, 400.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
-    [skipToWKWebViewButton setTitle:@"skipToWKWebViewController" forState:UIControlStateNormal];
-    [skipToWKWebViewButton addTarget:self action:@selector(skipToWKWebView:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:skipToWKWebViewButton];
+    UIButton *javaScriptCoreButton_UI = [UIButton buttonWithType:UIButtonTypeSystem];
+    javaScriptCoreButton_UI.frame = CGRectMake(30.0, 300.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    [javaScriptCoreButton_UI setTitle:@"UIWebView-JavaScriptCore" forState:UIControlStateNormal];
+    [javaScriptCoreButton_UI addTarget:self action:@selector(skipToUIWebView_javaScriptCore:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:javaScriptCoreButton_UI];
+    
+    UIButton *interceptButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
+    interceptButton_WK.frame = CGRectMake(30.0, 400.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    [interceptButton_WK setTitle:@"WKWebView-Intercept" forState:UIControlStateNormal];
+    [interceptButton_WK addTarget:self action:@selector(skipToWKWebView_intercept:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:interceptButton_WK];
+    
+    UIButton *javaScriptCoreButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
+    javaScriptCoreButton_WK.frame = CGRectMake(30.0, 500.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    [javaScriptCoreButton_WK setTitle:@"WKWebView-WebKit" forState:UIControlStateNormal];
+    [javaScriptCoreButton_WK addTarget:self action:@selector(skipToWKWebView_webKit:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:javaScriptCoreButton_WK];
 }
 
-- (void)skipToUIWebView:(id)sender {
+- (void)skipToUIWebView_intercept:(id)sender {
     
-    UIWebViewController *webViewController = [UIWebViewController new];
-    [self.navigationController pushViewController:webViewController animated:YES];
+    UIWebViewInterceptController *viewController = [UIWebViewInterceptController new];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
-- (void)skipToWKWebView:(id)sender {
+- (void)skipToUIWebView_javaScriptCore:(id)sender {
     
-    WKWebViewController *webViewController = [WKWebViewController new];
-    [self.navigationController pushViewController:webViewController animated:YES];
+    UIWebViewJavaScriptCoreController *viewController = [UIWebViewJavaScriptCoreController new];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)skipToWKWebView_intercept:(id)sender {
+    
+    WKWebViewInterceptController *viewController = [WKWebViewInterceptController new];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)skipToWKWebView_webKit:(id)sender {
+    
+    WKWebViewWebKitController *viewController = [WKWebViewWebKitController new];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 @end
