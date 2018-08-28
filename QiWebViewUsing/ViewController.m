@@ -29,19 +29,19 @@
     [self.view addSubview:interceptButton_UI];
     
     UIButton *javaScriptCoreButton_UI = [UIButton buttonWithType:UIButtonTypeSystem];
-    javaScriptCoreButton_UI.frame = CGRectMake(30.0, 300.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    javaScriptCoreButton_UI.frame = CGRectMake(30.0, 250.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
     [javaScriptCoreButton_UI setTitle:@"UIWebView-JavaScriptCore" forState:UIControlStateNormal];
     [javaScriptCoreButton_UI addTarget:self action:@selector(skipToUIWebView_javaScriptCore:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:javaScriptCoreButton_UI];
     
     UIButton *interceptButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
-    interceptButton_WK.frame = CGRectMake(30.0, 400.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    interceptButton_WK.frame = CGRectMake(30.0, 300.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
     [interceptButton_WK setTitle:@"WKWebView-Intercept" forState:UIControlStateNormal];
     [interceptButton_WK addTarget:self action:@selector(skipToWKWebView_intercept:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:interceptButton_WK];
     
     UIButton *javaScriptCoreButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
-    javaScriptCoreButton_WK.frame = CGRectMake(30.0, 500.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    javaScriptCoreButton_WK.frame = CGRectMake(30.0, 350.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
     [javaScriptCoreButton_WK setTitle:@"WKWebView-WebKit" forState:UIControlStateNormal];
     [javaScriptCoreButton_WK addTarget:self action:@selector(skipToWKWebView_webKit:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:javaScriptCoreButton_WK];

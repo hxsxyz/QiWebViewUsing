@@ -25,11 +25,11 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.view.backgroundColor = [UIColor whiteColor];
     
-    // loginItem
-    UIBarButtonItem *loginItem = [[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:self action:@selector(login:)];
-    self.navigationItem.rightBarButtonItems = @[loginItem];
+    //! 登录按钮
+    UIBarButtonItem *loginBtnItem = [[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:self action:@selector(login:)];
+    self.navigationItem.rightBarButtonItems = @[loginBtnItem];
     
-    // webView
+    //! UIWebView
     _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
     _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _webView.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
@@ -39,7 +39,7 @@
     _webView.delegate = self;
     [self.view addSubview:_webView];
     
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"QiWebViewUsing" withExtension:@"html"];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"UIWebView-Intercept" withExtension:@"html"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     [_webView loadRequest:request];
 }
@@ -47,9 +47,10 @@
 
 #pragma mark - Action functions
 
+//! 登录方法
 - (void)login:(id)sender {
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         NSString *jsString = [NSString stringWithFormat:@"ocToJs('loginSucceed', 'oc_tokenString')"];
         [self.webView stringByEvaluatingJavaScriptFromString:jsString];
     });
@@ -58,6 +59,7 @@
 
 #pragma mark - UIWebViewDelegate
 
+//! UIWebView在每次加载请求前会调用此方法来确认是否加载此请求
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
     
     if ([request.URL.scheme caseInsensitiveCompare:@"jsToOc"] == NSOrderedSame) {
@@ -68,6 +70,7 @@
     return YES;
 }
 
+//! UIWebView在每次加载请求完成后会调用此方法
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     
     self.title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];

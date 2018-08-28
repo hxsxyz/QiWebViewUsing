@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		063C179C212ABA88007CC923 /* QiWebViewUsing.html in Resources */ = {isa = PBXBuildFile; fileRef = 063C179B212ABA88007CC923 /* QiWebViewUsing.html */; };
+		0689FAEF2134FD1E0049BFA5 /* UIWebView-Intercept.html in Resources */ = {isa = PBXBuildFile; fileRef = 0689FAEE2134FD1E0049BFA5 /* UIWebView-Intercept.html */; };
 		06B02E952133CB630024177C /* UIWebViewInterceptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B02E942133CB630024177C /* UIWebViewInterceptController.m */; };
 		06B02E9B2133CBB20024177C /* UIWebViewJavaScriptCoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B02E9A2133CBB20024177C /* UIWebViewJavaScriptCoreController.m */; };
 		06B02E9E2133CBC70024177C /* WKWebViewInterceptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B02E9D2133CBC70024177C /* WKWebViewInterceptController.m */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		063C179B212ABA88007CC923 /* QiWebViewUsing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = QiWebViewUsing.html; sourceTree = "<group>"; };
+		0689FAEE2134FD1E0049BFA5 /* UIWebView-Intercept.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "UIWebView-Intercept.html"; sourceTree = "<group>"; };
 		06B02E932133CB630024177C /* UIWebViewInterceptController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewInterceptController.h; sourceTree = "<group>"; };
 		06B02E942133CB630024177C /* UIWebViewInterceptController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewInterceptController.m; sourceTree = "<group>"; };
 		06B02E992133CBB20024177C /* UIWebViewJavaScriptCoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewJavaScriptCoreController.h; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				06B02E932133CB630024177C /* UIWebViewInterceptController.h */,
 				06B02E942133CB630024177C /* UIWebViewInterceptController.m */,
+				0689FAEE2134FD1E0049BFA5 /* UIWebView-Intercept.html */,
 			);
 			path = "UIWebView-Intercept";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0689FAEF2134FD1E0049BFA5 /* UIWebView-Intercept.html in Resources */,
 				06D17026211EBC4D00220522 /* Assets.xcassets in Resources */,
 				063C179C212ABA88007CC923 /* QiWebViewUsing.html in Resources */,
 			);

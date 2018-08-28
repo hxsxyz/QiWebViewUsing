@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta http-equiv = "Content-Type" content = "text/html; charset=utf8">
-        <title>QiWebViewUsing.html</title>
+        <title>UIWebView-Intercept</title>
         <script language = "javascript">
             
             //! 加载URL
@@ -9,7 +9,7 @@
                 window.location.href = url;
             }
         
-            //! JS调用OC入口
+            //! JS调用iOS入口
             function jsToOc(action, params) {
                 var url = "jsToOc://" + action + "?" + params;
                 loadURL(url);
@@ -21,13 +21,13 @@
                 jsToOc(action, token);
             }
             
-            //! JS调用OC的登录功能
+            //! 登录功能
             function login() {
                 var token = "js_tokenString";
                 loginSucceed(token);
             }
             
-            //! OC调用JS入口
+            //! iOS调用JS入口
             function ocToJs(action, params) {
                 document.getElementById("returnValue").innerHTML = action + '?' + params;
             }
@@ -38,10 +38,9 @@
     <body>
         <h3>功能按钮</h3>
         <button onclick = "login()" style = "font-size: 18px;">登录</button>
-        <br> </br>
         
         <h3>回调数据</h3>
-        <div id = "returnValue" style = "font-size: 18px; color: #000000; border: 1px #000000 dotted; height: 50px;"> </div>
+        <div id = "returnValue" style = "font-size: 18px; border: 1px dotted; height: 50px;"> </div>
     </body>
     
 </html>
