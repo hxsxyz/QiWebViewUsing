@@ -1,22 +1,30 @@
 //
-//  UIWebViewJavaScriptCoreController.m
+//  UIWebViewJSExportController.m
 //  QiWebViewUsing
 //
-//  Created by huangxianshuai on 2018/8/27.
+//  Created by huangxianshuai on 2018/8/28.
 //  Copyright © 2018年 Xs·H. All rights reserved.
 //
 
-#import "UIWebViewJavaScriptCoreController.h"
+#import "UIWebViewJSExportController.h"
 #import <JavaScriptCore/JavaScriptCore.h>
 
-@interface UIWebViewJavaScriptCoreController () <UIWebViewDelegate>
+@protocol OCJSExport <JSExport>
+
+- (void)login;
+- (void)loginSucceed:(NSString *)token;
+JSExportAs(jsToOc, - (void)jsToOc:(NSString *)action params:(NSString *)params);
+
+@end
+
+@interface UIWebViewJSExportController () <UIWebViewDelegate, OCJSExport>
 
 //! UIWebView-webView
 @property (nonatomic, strong) UIWebView *webView;
 
 @end
 
-@implementation UIWebViewJavaScriptCoreController
+@implementation UIWebViewJSExportController
 
 - (void)viewDidLoad {
     
@@ -39,7 +47,7 @@
     _webView.delegate = self;
     [self.view addSubview:_webView];
     
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"UIWebView-JavaScriptCore" withExtension:@"html"];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"UIWebView-JSExport" withExtension:@"html"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     [_webView loadRequest:request];
 }
@@ -52,39 +60,35 @@
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         JSContext *context = [self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-        //! JSContext -evaluateScript:方式调用JS方法
-        // [context evaluateScript:[NSString stringWithFormat:@"ocToJs('loginSucceed', 'oc_tokenString')"]];
-        //! JSValue -callWithArguments:方式调用JS方法
         [context[@"ocToJs"] callWithArguments:@[@"loginSucceed", @"oc_tokenString"]];
     });
 }
 
-//! 使用context监听JS的方法
-- (void)addActionsWithContext:(JSContext *)context {
+
+#pragma mark - JSExport functions
+
+//! OCJSBridge.login()
+- (void)login {
     
-    [context setExceptionHandler:^(JSContext *context, JSValue *exception) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            NSLog(@"JS Exception: %@", exception.toString);
-        });
-    }];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self login:nil];
+    });
+}
+
+//! OCJSBridge.loginSucceed(token)
+- (void)loginSucceed:(NSString *)token {
     
-    context[@"jsToOc"] = ^(NSString *action, NSString *params) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self.class showAlertWithTitle:action message:params cancelHandler:nil];
-        });
-    };
-    context[@"loginSucceed"] = ^(NSString *token) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self.class showAlertWithTitle:@"loginScceed" message:token cancelHandler:nil];
-        });
-    };
-    /*
-    context[@"login"] = ^() {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self login:nil];
-        });
-    };
-     */
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.class showAlertWithTitle:@"loginScceed" message:token cancelHandler:nil];
+    });
+}
+
+//! OCJSBridge.jstoOc(action, params)
+- (void)jsToOc:(NSString *)action params:(NSString *)params {
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.class showAlertWithTitle:action message:params cancelHandler:nil];
+    });
 }
 
 
@@ -96,7 +100,13 @@
     JSContext *context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     self.title = [context evaluateScript:@"document.title"].toString;
     
-    [self addActionsWithContext:context];
+    [context setExceptionHandler:^(JSContext *context, JSValue *exception) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"JS Exception: %@", exception.toString);
+        });
+    }];
+    
+    context[@"OCJSBridge"] = self;
 }
 
 

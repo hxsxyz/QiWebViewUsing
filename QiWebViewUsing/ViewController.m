@@ -9,9 +9,12 @@
 #import "ViewController.h"
 
 #import "UIWebViewInterceptController.h"
+
 #import "UIWebViewJavaScriptCoreController.h"
+#import "UIWebViewJSExportController.h"
 
 #import "WKWebViewInterceptController.h"
+
 #import "WKWebViewWebKitController.h"
 
 @implementation ViewController
@@ -23,25 +26,31 @@
     self.title = @"QiShare";
     
     UIButton *interceptButton_UI = [UIButton buttonWithType:UIButtonTypeSystem];
-    interceptButton_UI.frame = CGRectMake(30.0, 200.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    interceptButton_UI.frame = CGRectMake(30.0, 100.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
     [interceptButton_UI setTitle:@"UIWebView-Intercept" forState:UIControlStateNormal];
     [interceptButton_UI addTarget:self action:@selector(skipToUIWebView_intercept:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:interceptButton_UI];
     
     UIButton *javaScriptCoreButton_UI = [UIButton buttonWithType:UIButtonTypeSystem];
-    javaScriptCoreButton_UI.frame = CGRectMake(30.0, 250.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    javaScriptCoreButton_UI.frame = CGRectMake(30.0, 200.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
     [javaScriptCoreButton_UI setTitle:@"UIWebView-JavaScriptCore" forState:UIControlStateNormal];
     [javaScriptCoreButton_UI addTarget:self action:@selector(skipToUIWebView_javaScriptCore:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:javaScriptCoreButton_UI];
     
+    UIButton *jsExportButton_UI = [UIButton buttonWithType:UIButtonTypeSystem];
+    jsExportButton_UI.frame = CGRectMake(30.0, 250.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    [jsExportButton_UI setTitle:@"UIWebView-JSExport" forState:UIControlStateNormal];
+    [jsExportButton_UI addTarget:self action:@selector(skipToUIWebView_jsExport:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:jsExportButton_UI];
+    
     UIButton *interceptButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
-    interceptButton_WK.frame = CGRectMake(30.0, 300.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    interceptButton_WK.frame = CGRectMake(30.0, 350.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
     [interceptButton_WK setTitle:@"WKWebView-Intercept" forState:UIControlStateNormal];
     [interceptButton_WK addTarget:self action:@selector(skipToWKWebView_intercept:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:interceptButton_WK];
     
     UIButton *javaScriptCoreButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
-    javaScriptCoreButton_WK.frame = CGRectMake(30.0, 350.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    javaScriptCoreButton_WK.frame = CGRectMake(30.0, 450.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
     [javaScriptCoreButton_WK setTitle:@"WKWebView-WebKit" forState:UIControlStateNormal];
     [javaScriptCoreButton_WK addTarget:self action:@selector(skipToWKWebView_webKit:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:javaScriptCoreButton_WK];
@@ -56,6 +65,12 @@
 - (void)skipToUIWebView_javaScriptCore:(id)sender {
     
     UIWebViewJavaScriptCoreController *viewController = [UIWebViewJavaScriptCoreController new];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)skipToUIWebView_jsExport:(id)sender {
+    
+    UIWebViewJSExportController *viewController = [UIWebViewJSExportController new];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
