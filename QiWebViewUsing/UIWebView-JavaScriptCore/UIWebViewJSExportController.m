@@ -40,7 +40,6 @@ JSExportAs(jsToOc, - (void)jsToOc:(NSString *)action params:(NSString *)params);
     //! UIWebView
     _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
     _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    _webView.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
     if (@available(ios 11.0,*)) {
         _webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }

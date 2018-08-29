@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta http-equiv = "Content-Type" content = "text/html; charset=utf8">
+        <title>WKWebView-WKUIDelegate</title>
+        <script language = "javascript">
+            
+            //! 调用alert(message)
+            function showAlert() {
+                alert("js_alertMessage");
+            }
+            //! 调用confirm(message)
+            function showConfirm() {
+                confirm("js_confirmMessage");
+            }
+            //! 调用prompt(prompt, defaultMessage)
+            function showPrompt() {
+                prompt("js_prompt", "js_prompt_defaultMessage");
+            }
+            
+            //! OC调用JS入口
+            function ocToJs(action, params) {
+                document.getElementById("returnValue").innerHTML = action + '?' + params;
+            }
+            
+        </script>
+    </head>
+    
+    <body>
+        <h3>功能按钮</h3>
+        <button onclick = "showAlert()" style = "font-size: 18px;">alert(message)</button>
+        <br> </br>
+        <button onclick = "showConfirm()" style = "font-size: 18px;">confirm(message)</button>
+        <br> </br>
+        <button onclick = "showPrompt()" style = "font-size: 18px;">prompt(prompt, defaultText)</button>
+        
+        <h3>回调数据</h3>
+        <div id = "returnValue" style = "font-size: 18px; border: 1px dotted; height: 50px;"> </div>
+    </body>
+    
+</html>
+

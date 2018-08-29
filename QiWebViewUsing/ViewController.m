@@ -15,7 +15,8 @@
 
 #import "WKWebViewInterceptController.h"
 
-#import "WKWebViewWebKitController.h"
+#import "WKWebViewWKUIDelegateController.h"
+#import "WKWebViewMessageHandlerController.h"
 
 @implementation ViewController
 
@@ -49,11 +50,17 @@
     [interceptButton_WK addTarget:self action:@selector(skipToWKWebView_intercept:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:interceptButton_WK];
     
-    UIButton *javaScriptCoreButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
-    javaScriptCoreButton_WK.frame = CGRectMake(30.0, 450.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
-    [javaScriptCoreButton_WK setTitle:@"WKWebView-WebKit" forState:UIControlStateNormal];
-    [javaScriptCoreButton_WK addTarget:self action:@selector(skipToWKWebView_webKit:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:javaScriptCoreButton_WK];
+    UIButton *wkUIDelegateButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
+    wkUIDelegateButton_WK.frame = CGRectMake(30.0, 450.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    [wkUIDelegateButton_WK setTitle:@"WKWebView-WKUIDelegate" forState:UIControlStateNormal];
+    [wkUIDelegateButton_WK addTarget:self action:@selector(skipToWKWebView_wkUIDelegate:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:wkUIDelegateButton_WK];
+    
+    UIButton *messageHandlerButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
+    messageHandlerButton_WK.frame = CGRectMake(30.0, 500.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    [messageHandlerButton_WK setTitle:@"WKWebView-MessageHandler" forState:UIControlStateNormal];
+    [messageHandlerButton_WK addTarget:self action:@selector(skipToWKWebView_messageHandler:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:messageHandlerButton_WK];
 }
 
 - (void)skipToUIWebView_intercept:(id)sender {
@@ -80,9 +87,15 @@
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
-- (void)skipToWKWebView_webKit:(id)sender {
+- (void)skipToWKWebView_wkUIDelegate:(id)sender {
     
-    WKWebViewWebKitController *viewController = [WKWebViewWebKitController new];
+    WKWebViewWKUIDelegateController *viewController = [WKWebViewWKUIDelegateController new];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)skipToWKWebView_messageHandler:(id)sender {
+    
+    WKWebViewMessageHandlerController *viewController = [WKWebViewMessageHandlerController new];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
