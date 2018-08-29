@@ -79,7 +79,7 @@ JSExportAs(jsToOc, - (void)jsToOc:(NSString *)action params:(NSString *)params);
 - (void)loginSucceed:(NSString *)token {
     
     dispatch_async(dispatch_get_main_queue(), ^{
-        [self.class showAlertWithTitle:@"loginScceed" message:token cancelHandler:nil];
+        [UIWebViewJSExportController showAlertWithTitle:@"loginScceed" message:token cancelHandler:nil];
     });
 }
 
@@ -87,7 +87,7 @@ JSExportAs(jsToOc, - (void)jsToOc:(NSString *)action params:(NSString *)params);
 - (void)jsToOc:(NSString *)action params:(NSString *)params {
     
     dispatch_async(dispatch_get_main_queue(), ^{
-        [self.class showAlertWithTitle:action message:params cancelHandler:nil];
+        [UIWebViewJSExportController showAlertWithTitle:action message:params cancelHandler:nil];
     });
 }
 
@@ -106,6 +106,7 @@ JSExportAs(jsToOc, - (void)jsToOc:(NSString *)action params:(NSString *)params);
         });
     }];
     
+    //! 有循环引用的问题，可用独立类解决
     context[@"OCJSBridge"] = self;
 }
 
@@ -122,6 +123,14 @@ JSExportAs(jsToOc, - (void)jsToOc:(NSString *)action params:(NSString *)params);
     }];
     [alertController addAction:cancelAction];
     [[UIApplication sharedApplication].delegate.window.rootViewController presentViewController:alertController animated:YES completion:nil];
+}
+
+
+#pragma mark - Dealloc
+
+- (void)dealloc {
+    
+    NSLog(@"%s", __func__);
 }
 
 @end

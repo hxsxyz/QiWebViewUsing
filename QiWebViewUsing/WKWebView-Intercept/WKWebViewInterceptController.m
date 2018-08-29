@@ -7,8 +7,12 @@
 //
 
 #import "WKWebViewInterceptController.h"
+#import <WebKit/WebKit.h>
 
-@interface WKWebViewInterceptController ()
+@interface WKWebViewInterceptController () <WKNavigationDelegate>
+
+//! WKWebView-webView
+@property (nonatomic, strong) WKWebView *webView;
 
 @end
 

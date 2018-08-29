@@ -62,7 +62,7 @@
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
     
     if ([request.URL.scheme caseInsensitiveCompare:@"jsToOc"] == NSOrderedSame) {
-        [self.class showAlertWithTitle:request.URL.host message:request.URL.query cancelHandler:nil];
+        [UIWebViewInterceptController showAlertWithTitle:request.URL.host message:request.URL.query cancelHandler:nil];
         return NO;
     }
     
@@ -88,6 +88,14 @@
     }];
     [alertController addAction:cancelAction];
     [[UIApplication sharedApplication].delegate.window.rootViewController presentViewController:alertController animated:YES completion:nil];
+}
+
+
+#pragma mark - Dealloc
+
+- (void)dealloc {
+    
+    NSLog(@"%s", __func__);
 }
 
 @end

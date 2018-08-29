@@ -70,12 +70,12 @@
     
     context[@"jsToOc"] = ^(NSString *action, NSString *params) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [self.class showAlertWithTitle:action message:params cancelHandler:nil];
+            [UIWebViewJavaScriptCoreController showAlertWithTitle:action message:params cancelHandler:nil];
         });
     };
     context[@"loginSucceed"] = ^(NSString *token) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [self.class showAlertWithTitle:@"loginScceed" message:token cancelHandler:nil];
+            [UIWebViewJavaScriptCoreController showAlertWithTitle:@"loginScceed" message:token cancelHandler:nil];
         });
     };
     /*
@@ -112,6 +112,14 @@
     }];
     [alertController addAction:cancelAction];
     [[UIApplication sharedApplication].delegate.window.rootViewController presentViewController:alertController animated:YES completion:nil];
+}
+
+
+#pragma mark - Dealloc
+
+- (void)dealloc {
+    
+    NSLog(@"%s", __func__);
 }
 
 @end
