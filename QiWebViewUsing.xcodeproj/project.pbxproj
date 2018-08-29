@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0601D2A1213685C0001FEA0B /* WKWebView-Intercept.html in Resources */ = {isa = PBXBuildFile; fileRef = 0601D2A0213685C0001FEA0B /* WKWebView-Intercept.html */; };
-		0601D2A421369264001FEA0B /* WKWebViewMessageHandlerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0601D2A321369264001FEA0B /* WKWebViewMessageHandlerController.m */; };
+		0601D2A421369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0601D2A321369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.m */; };
 		0601D2A7213692B9001FEA0B /* WKWebViewWKUIDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0601D2A6213692B9001FEA0B /* WKWebViewWKUIDelegateController.m */; };
-		0601D2AA21369DBC001FEA0B /* WKWebView-MessageHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = 0601D2A821369DBC001FEA0B /* WKWebView-MessageHandler.html */; };
+		0601D2AA21369DBC001FEA0B /* WKWebView-WKScriptMessageHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = 0601D2A821369DBC001FEA0B /* WKWebView-WKScriptMessageHandler.html */; };
 		0601D2AB21369DBC001FEA0B /* WKWebView-WKUIDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 0601D2A921369DBC001FEA0B /* WKWebView-WKUIDelegate.html */; };
 		0689FAEF2134FD1E0049BFA5 /* UIWebView-Intercept.html in Resources */ = {isa = PBXBuildFile; fileRef = 0689FAEE2134FD1E0049BFA5 /* UIWebView-Intercept.html */; };
 		0689FAF32135597C0049BFA5 /* UIWebView-JavaScriptCore.html in Resources */ = {isa = PBXBuildFile; fileRef = 0689FAF22135597C0049BFA5 /* UIWebView-JavaScriptCore.html */; };
@@ -27,11 +27,11 @@
 
 /* Begin PBXFileReference section */
 		0601D2A0213685C0001FEA0B /* WKWebView-Intercept.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "WKWebView-Intercept.html"; sourceTree = "<group>"; };
-		0601D2A221369264001FEA0B /* WKWebViewMessageHandlerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewMessageHandlerController.h; sourceTree = "<group>"; };
-		0601D2A321369264001FEA0B /* WKWebViewMessageHandlerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewMessageHandlerController.m; sourceTree = "<group>"; };
+		0601D2A221369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewWKScriptMessageHandlerController.h; sourceTree = "<group>"; };
+		0601D2A321369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewWKScriptMessageHandlerController.m; sourceTree = "<group>"; };
 		0601D2A5213692B9001FEA0B /* WKWebViewWKUIDelegateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewWKUIDelegateController.h; sourceTree = "<group>"; };
 		0601D2A6213692B9001FEA0B /* WKWebViewWKUIDelegateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewWKUIDelegateController.m; sourceTree = "<group>"; };
-		0601D2A821369DBC001FEA0B /* WKWebView-MessageHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "WKWebView-MessageHandler.html"; sourceTree = "<group>"; };
+		0601D2A821369DBC001FEA0B /* WKWebView-WKScriptMessageHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "WKWebView-WKScriptMessageHandler.html"; sourceTree = "<group>"; };
 		0601D2A921369DBC001FEA0B /* WKWebView-WKUIDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "WKWebView-WKUIDelegate.html"; sourceTree = "<group>"; };
 		0689FAEE2134FD1E0049BFA5 /* UIWebView-Intercept.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "UIWebView-Intercept.html"; sourceTree = "<group>"; };
 		0689FAF22135597C0049BFA5 /* UIWebView-JavaScriptCore.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "UIWebView-JavaScriptCore.html"; sourceTree = "<group>"; };
@@ -104,9 +104,9 @@
 				0601D2A5213692B9001FEA0B /* WKWebViewWKUIDelegateController.h */,
 				0601D2A6213692B9001FEA0B /* WKWebViewWKUIDelegateController.m */,
 				0601D2A921369DBC001FEA0B /* WKWebView-WKUIDelegate.html */,
-				0601D2A221369264001FEA0B /* WKWebViewMessageHandlerController.h */,
-				0601D2A321369264001FEA0B /* WKWebViewMessageHandlerController.m */,
-				0601D2A821369DBC001FEA0B /* WKWebView-MessageHandler.html */,
+				0601D2A221369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.h */,
+				0601D2A321369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.m */,
+				0601D2A821369DBC001FEA0B /* WKWebView-WKScriptMessageHandler.html */,
 			);
 			path = "WKWebView-MessageHandler";
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0689FAF32135597C0049BFA5 /* UIWebView-JavaScriptCore.html in Resources */,
-				0601D2AA21369DBC001FEA0B /* WKWebView-MessageHandler.html in Resources */,
+				0601D2AA21369DBC001FEA0B /* WKWebView-WKScriptMessageHandler.html in Resources */,
 				0689FAEF2134FD1E0049BFA5 /* UIWebView-Intercept.html in Resources */,
 				0601D2A1213685C0001FEA0B /* WKWebView-Intercept.html in Resources */,
 				06D17026211EBC4D00220522 /* Assets.xcassets in Resources */,
@@ -223,7 +223,7 @@
 				06D17021211EBC4B00220522 /* ViewController.m in Sources */,
 				06B02E952133CB630024177C /* UIWebViewInterceptController.m in Sources */,
 				0689FAF9213584550049BFA5 /* UIWebViewJSExportController.m in Sources */,
-				0601D2A421369264001FEA0B /* WKWebViewMessageHandlerController.m in Sources */,
+				0601D2A421369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.m in Sources */,
 				06D1702C211EBC4D00220522 /* main.m in Sources */,
 				06D1701E211EBC4B00220522 /* AppDelegate.m in Sources */,
 				06B02E9E2133CBC70024177C /* WKWebViewInterceptController.m in Sources */,

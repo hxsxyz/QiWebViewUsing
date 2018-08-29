@@ -1,5 +1,5 @@
 //
-//  WKWebViewMessageHandlerController.h
+//  WKWebViewWKScriptMessageHandlerController.h
 //  QiWebViewUsing
 //
 //  Created by huangxianshuai on 2018/8/29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WKWebViewMessageHandlerController : UIViewController
+@interface WKWebViewWKScriptMessageHandlerController : UIViewController
 
 @end

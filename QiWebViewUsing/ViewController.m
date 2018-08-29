@@ -16,7 +16,7 @@
 #import "WKWebViewInterceptController.h"
 
 #import "WKWebViewWKUIDelegateController.h"
-#import "WKWebViewMessageHandlerController.h"
+#import "WKWebViewWKScriptMessageHandlerController.h"
 
 @implementation ViewController
 
@@ -58,8 +58,8 @@
     
     UIButton *messageHandlerButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
     messageHandlerButton_WK.frame = CGRectMake(30.0, 500.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
-    [messageHandlerButton_WK setTitle:@"WKWebView-MessageHandler" forState:UIControlStateNormal];
-    [messageHandlerButton_WK addTarget:self action:@selector(skipToWKWebView_messageHandler:) forControlEvents:UIControlEventTouchUpInside];
+    [messageHandlerButton_WK setTitle:@"WKWebView-WKScriptMessageHandler" forState:UIControlStateNormal];
+    [messageHandlerButton_WK addTarget:self action:@selector(skipToWKWebView_wkScriptMessageHandler:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:messageHandlerButton_WK];
 }
 
@@ -93,9 +93,9 @@
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
-- (void)skipToWKWebView_messageHandler:(id)sender {
+- (void)skipToWKWebView_wkScriptMessageHandler:(id)sender {
     
-    WKWebViewMessageHandlerController *viewController = [WKWebViewMessageHandlerController new];
+    WKWebViewWKScriptMessageHandlerController *viewController = [WKWebViewWKScriptMessageHandlerController new];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
