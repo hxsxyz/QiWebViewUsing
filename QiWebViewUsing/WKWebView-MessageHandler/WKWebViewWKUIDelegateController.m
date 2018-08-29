@@ -69,12 +69,6 @@
 
 #pragma mark - WKUIDelegate
 
-/*!
- JS方法    触发的客户端方法
- 
- confirm  runJavaScriptConfirmPanelWithMessage
- prompt   runJavaScriptTextInputPanelWithPrompt
- */
 //! alert(message)
 - (void)webView:(WKWebView *)webView runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(void))completionHandler {
     
@@ -94,7 +88,7 @@
         completionHandler(NO);
     }];
     UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        completionHandler(NO);
+        completionHandler(YES);
     }];
     [alertController addAction:cancelAction];
     [alertController addAction:confirmAction];

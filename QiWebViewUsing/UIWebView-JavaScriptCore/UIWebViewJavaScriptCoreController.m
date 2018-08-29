@@ -72,11 +72,13 @@
             [UIWebViewJavaScriptCoreController showAlertWithTitle:action message:params cancelHandler:nil];
         });
     };
+    /*
     context[@"loginSucceed"] = ^(NSString *token) {
         dispatch_async(dispatch_get_main_queue(), ^{
             [UIWebViewJavaScriptCoreController showAlertWithTitle:@"loginScceed" message:token cancelHandler:nil];
         });
     };
+     */
     /*
     context[@"login"] = ^() {
         dispatch_async(dispatch_get_main_queue(), ^{

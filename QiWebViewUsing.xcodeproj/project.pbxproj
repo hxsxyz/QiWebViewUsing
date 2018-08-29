@@ -101,12 +101,12 @@
 		06B02E922133CAEB0024177C /* WKWebView-MessageHandler */ = {
 			isa = PBXGroup;
 			children = (
-				0601D2A5213692B9001FEA0B /* WKWebViewWKUIDelegateController.h */,
-				0601D2A6213692B9001FEA0B /* WKWebViewWKUIDelegateController.m */,
-				0601D2A921369DBC001FEA0B /* WKWebView-WKUIDelegate.html */,
 				0601D2A221369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.h */,
 				0601D2A321369264001FEA0B /* WKWebViewWKScriptMessageHandlerController.m */,
 				0601D2A821369DBC001FEA0B /* WKWebView-WKScriptMessageHandler.html */,
+				0601D2A5213692B9001FEA0B /* WKWebViewWKUIDelegateController.h */,
+				0601D2A6213692B9001FEA0B /* WKWebViewWKUIDelegateController.m */,
+				0601D2A921369DBC001FEA0B /* WKWebView-WKUIDelegate.html */,
 			);
 			path = "WKWebView-MessageHandler";
 			sourceTree = "<group>";

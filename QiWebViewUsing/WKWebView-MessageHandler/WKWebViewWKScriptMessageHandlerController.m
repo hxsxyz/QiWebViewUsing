@@ -34,6 +34,7 @@
     WKUserScript *userScript = [[WKUserScript alloc] initWithSource:jScript injectionTime:WKUserScriptInjectionTimeAtDocumentEnd forMainFrameOnly:YES];
     WKUserContentController *contentController = [[WKUserContentController alloc] init];
     [contentController addUserScript:userScript];
+    
     WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
     configuration.userContentController = contentController;
     
@@ -73,6 +74,7 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         NSString *jsString = [NSString stringWithFormat:@"ocToJs('loginSucceed', 'oc_tokenString')"];
         [self.webView evaluateJavaScript:jsString completionHandler:^(id response, NSError * error) {
+            NSLog(@"error: %@", error.description);
             NSLog(@"response: %@", response);
         }];
     });
@@ -81,6 +83,7 @@
 
 #pragma mark - WKScriptMessageHandler
 
+//! WKWebView收到ScriptMessage时回调此方法
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message {
     
     if ([message.name caseInsensitiveCompare:@"jsToOc"] == NSOrderedSame) {

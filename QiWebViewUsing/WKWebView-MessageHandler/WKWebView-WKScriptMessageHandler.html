@@ -18,7 +18,7 @@
             //! JS登录成功后loadURL并传参token
             function loginSucceed(token) {
                 var action = "loginSucceed";
-                jsToOc(action, token);
+                window.webkit.messageHandlers.jsToOc.postMessage(action, token);
             }
             
             //! JS调用OC的登录功能
@@ -29,7 +29,7 @@
             
             //! OC调用JS入口
             function ocToJs(action, params) {
-                document.getElementById("returnValue").innerHTML = action + '?' + params;
+                return document.getElementById("returnValue").innerHTML = action + '?' + params;
             }
             
         </script>

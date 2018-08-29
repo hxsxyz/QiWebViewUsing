@@ -18,7 +18,7 @@
             //! JS登录成功后loadURL并传参token
             function loginSucceed(token) {
                 var action = "loginSucceed";
-                jsToOc(action, token);
+                OCJSBridge.jsToOc(action, token);
             }
             
             //! JS调用OC的登录功能
@@ -37,7 +37,7 @@
     
     <body>
         <h3>功能按钮</h3>
-        <button onclick = "OCJSBridge.login()" style = "font-size: 18px;">登录</button>
+        <button onclick = "login()" style = "font-size: 18px;">登录</button>
         
         <h3>回调数据</h3>
         <div id = "returnValue" style = "font-size: 18px; border: 1px dotted; height: 50px;"> </div>
