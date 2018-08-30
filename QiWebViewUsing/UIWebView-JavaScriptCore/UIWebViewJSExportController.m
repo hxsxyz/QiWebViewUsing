@@ -2,8 +2,8 @@
 //  UIWebViewJSExportController.m
 //  QiWebViewUsing
 //
-//  Created by huangxianshuai on 2018/8/28.
-//  Copyright © 2018年 Xs·H. All rights reserved.
+//  Created by QiShare on 2018/8/28.
+//  Copyright © 2018年 QiShare. All rights reserved.
 //
 
 #import "UIWebViewJSExportController.h"
