@@ -4,17 +4,6 @@
         <title>UIWebView-JSExport</title>
         <script language = "javascript">
             
-            //! 加载URL
-            function loadURL(url) {
-                window.location.href = url;
-            }
-        
-            //! JS调用OC入口
-            function jsToOc(action, params) {
-                var url = "jsToOc://" + action + "?" + params;
-                loadURL(url);
-            }
-            
             //! JS登录成功后loadURL并传参token
             function loginSucceed(token) {
                 var action = "loginSucceed";

@@ -9,7 +9,7 @@
 #import "WKWebViewWKScriptMessageHandlerController.h"
 #import <WebKit/WebKit.h>
 
-@interface WKWebViewWKScriptMessageHandlerController () <WKScriptMessageHandler>
+@interface WKWebViewWKScriptMessageHandlerController () <WKNavigationDelegate, WKScriptMessageHandler>
 
 //! WKWebView-webView
 @property (nonatomic, strong) WKWebView *webView;
@@ -32,19 +32,22 @@
     //! WKWebView
     NSString *jScript = @"var meta = document.createElement('meta'); meta.setAttribute('name', 'viewport'); meta.setAttribute('content', 'width=device-width'); document.getElementsByTagName('head')[0].appendChild(meta);";
     WKUserScript *userScript = [[WKUserScript alloc] initWithSource:jScript injectionTime:WKUserScriptInjectionTimeAtDocumentEnd forMainFrameOnly:YES];
-    WKUserContentController *contentController = [[WKUserContentController alloc] init];
-    [contentController addUserScript:userScript];
+    
+    WKUserContentController *userContentController = [[WKUserContentController alloc] init];
+    [userContentController addUserScript:userScript];
     
     WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
-    configuration.userContentController = contentController;
+    configuration.userContentController = userContentController;
     
     _webView = [[WKWebView alloc] initWithFrame:self.view.bounds configuration:configuration];
     _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _webView.autoresizesSubviews = YES;
+    _webView.navigationDelegate = self;
+    [self.view addSubview:_webView];
+    
     if (@available(ios 11.0,*)) {
         _webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
-    [self.view addSubview:_webView];
     
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"WKWebView-WKScriptMessageHandler" withExtension:@"html"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
@@ -78,6 +81,17 @@
             NSLog(@"response: %@", response);
         }];
     });
+}
+
+
+#pragma mark - WKNavigationDelegate
+
+//! WKWebView在每次加载请求完成后会调用此方法
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+    
+    [webView evaluateJavaScript:@"document.title" completionHandler:^(NSString *title, NSError *error) {
+        self.title = title;
+    }];
 }
 
 

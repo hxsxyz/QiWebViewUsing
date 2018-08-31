@@ -32,11 +32,12 @@
     //! UIWebView
     _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
     _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    _webView.delegate = self;
+    [self.view addSubview:_webView];
+    
     if (@available(ios 11.0,*)) {
         _webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
-    _webView.delegate = self;
-    [self.view addSubview:_webView];
     
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"UIWebView-JavaScriptCore" withExtension:@"html"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];

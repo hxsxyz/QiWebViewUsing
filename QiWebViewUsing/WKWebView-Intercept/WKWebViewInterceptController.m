@@ -41,11 +41,12 @@
     _webView = [[WKWebView alloc] initWithFrame:self.view.bounds configuration:wkWebConfig];
     _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _webView.autoresizesSubviews = YES;
+    _webView.navigationDelegate = self;
+    [self.view addSubview:_webView];
+    
     if (@available(ios 11.0,*)) {
         _webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
-    _webView.navigationDelegate = self;
-    [self.view addSubview:_webView];
     
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"WKWebView-Intercept" withExtension:@"html"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
@@ -59,8 +60,7 @@
 - (void)login:(id)sender {
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        NSString *jsString = [NSString stringWithFormat:@"ocToJs('loginSucceed', 'oc_tokenString')"];
-        [self.webView evaluateJavaScript:jsString completionHandler:^(id response, NSError * error) {
+        [self.webView evaluateJavaScript:@"ocToJs('loginSucceed', 'oc_tokenString')" completionHandler:^(id response, NSError *error) {
             NSLog(@"response: %@", response);
         }];
     });
@@ -79,6 +79,14 @@
     else {
         decisionHandler(WKNavigationActionPolicyAllow);
     }
+}
+
+//! WKWebView在每次加载请求完成后会调用此方法
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+    
+    [webView evaluateJavaScript:@"document.title" completionHandler:^(NSString *title, NSError *error) {
+        self.title = title;
+    }];
 }
 
 

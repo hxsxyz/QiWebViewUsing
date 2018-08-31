@@ -9,7 +9,7 @@
 #import "WKWebViewWKUIDelegateController.h"
 #import <WebKit/WebKit.h>
 
-@interface WKWebViewWKUIDelegateController () <WKUIDelegate>
+@interface WKWebViewWKUIDelegateController () <WKNavigationDelegate, WKUIDelegate>
 
 //! WKWebView-webView
 @property (nonatomic, strong) WKWebView *webView;
@@ -41,11 +41,13 @@
     _webView = [[WKWebView alloc] initWithFrame:self.view.bounds configuration:wkWebConfig];
     _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _webView.autoresizesSubviews = YES;
+    _webView.navigationDelegate = self;
+    _webView.UIDelegate = self;
+    [self.view addSubview:_webView];
+    
     if (@available(ios 11.0,*)) {
         _webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
-    _webView.UIDelegate = self;
-    [self.view addSubview:_webView];
     
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"WKWebView-WKUIDelegate" withExtension:@"html"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
@@ -107,6 +109,17 @@
     }];
     [alertController addAction:confirmAction];
     [self presentViewController:alertController animated:YES completion:nil];
+}
+
+
+#pragma mark - WKNavigationDelegate
+
+//! WKWebView在每次加载请求完成后会调用此方法
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+    
+    [webView evaluateJavaScript:@"document.title" completionHandler:^(NSString *title, NSError *error) {
+        self.title = title;
+    }];
 }
 
 
