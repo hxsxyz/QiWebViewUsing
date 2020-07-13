@@ -18,6 +18,8 @@
 #import "WKWebViewWKUIDelegateController.h"
 #import "WKWebViewWKScriptMessageHandlerController.h"
 
+#import "WKWebViewJavaScriptBridgeController.h"
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -64,6 +66,12 @@
     [wkUIDelegateButton_WK setTitle:@"WKWebView-WKUIDelegate" forState:UIControlStateNormal];
     [wkUIDelegateButton_WK addTarget:self action:@selector(skipToWKWebView_wkUIDelegate:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:wkUIDelegateButton_WK];
+    
+    UIButton *javaScriptBridgeButton_WK = [UIButton buttonWithType:UIButtonTypeSystem];
+    javaScriptBridgeButton_WK.frame = CGRectMake(30.0, 450.0, self.view.bounds.size.width - 30.0 * 2, 50.0);
+    [javaScriptBridgeButton_WK setTitle:@"WKWebView-JavaScriptBridge" forState:UIControlStateNormal];
+    [javaScriptBridgeButton_WK addTarget:self action:@selector(skipToWKWebView_JavaScriptBridge:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:javaScriptBridgeButton_WK];
 }
 
 - (void)skipToUIWebView_intercept:(id)sender {
@@ -102,4 +110,9 @@
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
+- (void)skipToWKWebView_JavaScriptBridge:(id)sender {
+    
+    WKWebViewJavaScriptBridgeController *viewController = [WKWebViewJavaScriptBridgeController new];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
 @end

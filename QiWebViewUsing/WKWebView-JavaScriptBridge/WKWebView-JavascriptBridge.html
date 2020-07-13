@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta http-equiv = "Content-Type" content = "text/html; charset=utf8">
+        <title>WKWebView-JavascriptBridge</title>
+        <script language = "javascript">
+
+        
+        function setupJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) {
+                return callback(WebViewJavascriptBridge);
+            }
+            if (window.WVJBCallbacks) {
+                return window.WVJBCallbacks.push(callback);
+            }
+            window.WVJBCallbacks = [callback];
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.src = 'https://__bridge_loaded__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() {
+                document.documentElement.removeChild(WVJBIframe)
+            }, 0);
+        }
+        
+        var callbackFunc = function(bridge) {
+            /* Initialize your app here */
+            
+            bridge.registerHandler('ocToJs', function(data, responseCallback) {
+                document.getElementById("returnValue").innerHTML = data;
+                responseCallback("loginSucceed");
+            });
+        }
+        setupJavascriptBridge(callbackFunc);
+        
+        
+        //! JS登录成功后loadURL并传参token
+        function loginSucceed(token) {
+            var action = "loginSucceed";
+            WebViewJavascriptBridge.callHandler('jsToOc', [action, token], function responseCallback(responseData) {
+                console.log("JS received response:", responseData)
+            })
+        }
+        
+        //! JS调用OC的登录功能
+        function login() {
+            var token = "js_tokenString";
+            loginSucceed(token);
+        }
+        
+        //! OC调用JS入口
+        function ocToJs(action, params) {
+            document.getElementById("returnValue").innerHTML = action + '?' + params;
+        }
+            
+        </script>
+    </head>
+    
+    <body>
+        <h3>功能按钮</h3>
+        <button onclick = "login()" style = "font-size: 18px;">登录</button>
+        
+        <h3>回调数据</h3>
+        <div id = "returnValue" style = "font-size: 18px; border: 1px dotted; height: 50px;"> </div>
+    </body>
+    
+</html>
+
