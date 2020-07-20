@@ -1,0 +1,2977 @@
+2019-03-28 09:26:00 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa819e1d9e0; archive(resolved)='<IDEArchive: 0x7fa801b3a970>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa819e1d9e0; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa81fc2b200; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa801b222a0; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa81f651190; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa803036ac0; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa8032a9e60; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa81f3fa910; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa8034def60; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa8042d2390; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa81d83dd70; teamID='RR72T9X762', teamName='Wu Xi New Invent Precision-Machined Technology Co., Ltd.', teamType='Enterprise', username='inventt@126.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa804273e40; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa803227820; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fa8181503a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa802c34ca0; archive = '<IDEArchive: 0x7fa801b3a970>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa819e1d9e0>
+2019-03-28 09:26:00 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-03-28 09:26:00 +0000  Processing step: IDEDistributionCopyItemStep
+2019-03-28 09:26:00 +0000  Running /usr/bin/ditto '-V' '/Users/huangxianshuai/Library/Developer/Xcode/Archives/2019-03-28/WebTech 2019-3-28 下午5.25.xcarchive/Products/Applications/WebTech.app' '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app'
+2019-03-28 09:26:00 +0000  >>> Copying /Users/huangxianshuai/Library/Developer/Xcode/Archives/2019-03-28/WebTech 2019-3-28 下午5.25.xcarchive/Products/Applications/WebTech.app 
+2019-03-28 09:26:00 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-03-28 09:26:00 +0000  7068 bytes for ./_CodeSignature/CodeResources
+2019-03-28 09:26:00 +0000  copying file ./AppIcon60x60@2x.png ... 
+15583 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2019-03-28 09:26:00 +0000  20592 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./Assets.car ... 
+2019-03-28 09:26:00 +0000  4558968 bytes for ./Assets.car
+2019-03-28 09:26:00 +0000  copying file ./embedded.mobileprovision ... 
+23443 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2007 bytes for ./Info.plist
+copying file ./LaunchImage-1100-Portrait-2436h@3x.png ... 
+170467 bytes for ./LaunchImage-1100-Portrait-2436h@3x.png
+copying file ./LaunchImage-1200-Portrait-1792h@2x.png ... 
+127738 bytes for ./LaunchImage-1200-Portrait-1792h@2x.png
+copying file ./LaunchImage-1200-Portrait-2688h@3x.png ... 
+173665 bytes for ./LaunchImage-1200-Portrait-2688h@3x.png
+copying file ./LaunchImage-700-568h@2x.png ... 
+98276 bytes for ./LaunchImage-700-568h@2x.png
+copying file ./LaunchImage-700-Portrait@2x~ipad.png ... 
+179479 bytes for ./LaunchImage-700-Portrait@2x~ipad.png
+copying file ./LaunchImage-700-Portrait~ipad.png ... 
+87555 bytes for ./LaunchImage-700-Portrait~ipad.png
+copying file ./LaunchImage-700@2x.png ... 
+95955 bytes for ./LaunchImage-700@2x.png
+copying file ./LaunchImage-800-667h@2x.png ... 
+118003 bytes for ./LaunchImage-800-667h@2x.png
+copying file ./LaunchImage-800-Portrait-736h@3x.png ... 
+169903 bytes for ./LaunchImage-800-Portrait-736h@3x.png
+copying file ./MJRefresh.bundle/arrow@2x.png ... 
+1033 bytes for ./MJRefresh.bundle/arrow@2x.png
+copying file ./MJRefresh.bundle/en.lproj/Localizable.strings ... 
+691 bytes for ./MJRefresh.bundle/en.lproj/Localizable.strings
+copying file ./MJRefresh.bundle/zh-Hans.lproj/Localizable.strings ... 
+1194 bytes for ./MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+copying file ./MJRefresh.bundle/zh-Hant.lproj/Localizable.strings ... 
+773 bytes for ./MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./Qtest.html ... 
+38427 bytes for ./Qtest.html
+copying file ./WebTech ... 
+2019-03-28 09:26:00 +0000  8652544 bytes for ./WebTech
+2019-03-28 09:26:00 +0000  /usr/bin/ditto exited with 0
+2019-03-28 09:26:00 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-03-28 09:26:00 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-03-28 09:26:00 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-03-28 09:26:00 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-03-28 09:26:00 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root' '--json' '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool-json-filepath-JZ9txQ' '--compile-bitcode' '--output' '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/IDEIPAProcessor.AppThinning.qpT' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms' '--app-store-tools-build-version' '10B61'
+2019-03-28 09:26:00 +0000  ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
+2019-03-28 09:26:00 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3155: warning: shadowing outer local variable - c
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3161: warning: shadowing outer local variable - c
+2019-03-28 09:26:00 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3164: warning: shadowing outer local variable - c
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3154: warning: assigned but unused variable - prod
+2019-03-28 09:26:00 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3428: warning: mismatched indentations at 'end' with 'def' at 3355
+2019-03-28 09:26:00 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2019-03-28 09:26:00 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2019-03-28 09:26:00 +0000  OS X 10.13.6 17G65
+2019-03-28 09:26:00 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/", "LOGNAME"=>"huangxianshuai", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/huangxianshuai", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.SJpUjPOrPr/Render", "USER"=>"huangxianshuai", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.uc6X5mlxfG/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.141848", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34", "CA_DEBUG_TRANSACTIONS"=>"1"}
+ARGV: ["/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root", "--json", "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool-json-filepath-JZ9txQ", "--compile-bitcode", "--output", "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/IDEIPAProcessor.AppThinning.qpT", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms", "--app-store-tools-build-version", "10B61"]
+2019-03-28 09:26:00 +0000  ---
+IPA contents:
+2019-03-28 09:26:00 +0000  /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/AppIcon60x60@2x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/AppIcon76x76@2x~ipad.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Assets.car
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Info.plist
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1100-Portrait-2436h@3x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1200-Portrait-1792h@2x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1200-Portrait-2688h@3x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-568h@2x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-Portrait@2x~ipad.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-Portrait~ipad.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700@2x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-800-667h@2x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-800-Portrait-736h@3x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/arrow@2x.png
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/en.lproj
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/en.lproj/Localizable.strings
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/zh-Hans.lproj
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/zh-Hant.lproj
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/PkgInfo
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Qtest.html
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/_CodeSignature
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/_CodeSignature/CodeResources
+/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/embedded.mobileprovision
+---
+2019-03-28 09:26:00 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-03-28 09:26:00 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-03-28 09:26:00 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-03-28 09:26:00 +0000  Scanning IPA...
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/AppIcon60x60@2x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9607 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/AppIcon60x60@2x.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/AppIcon76x76@2x\~ipad.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9608 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/AppIcon76x76@2x\~ipad.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Assets.car
+2019-03-28 09:26:00 +0000      Command exited with pid 9609 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Assets.car
+    Stdout:
+        Mac OS X bill of materials (BOM) file
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Info.plist
+2019-03-28 09:26:00 +0000      Command exited with pid 9610 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Info.plist
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1100-Portrait-2436h@3x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9611 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1100-Portrait-2436h@3x.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1200-Portrait-1792h@2x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9612 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1200-Portrait-1792h@2x.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1200-Portrait-2688h@3x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9613 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-1200-Portrait-2688h@3x.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-568h@2x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9614 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-568h@2x.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-Portrait@2x\~ipad.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9615 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-Portrait@2x\~ipad.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-Portrait\~ipad.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9616 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700-Portrait\~ipad.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700@2x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9617 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-700@2x.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-800-667h@2x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9618 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-800-667h@2x.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-800-Portrait-736h@3x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9619 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/LaunchImage-800-Portrait-736h@3x.png
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/arrow@2x.png
+2019-03-28 09:26:00 +0000      Command exited with pid 9620 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/arrow@2x.png
+    Stdout:
+        PNG image data, 30 x 80, 8-bit/color RGBA, non-interlaced
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/en.lproj/Localizable.strings
+2019-03-28 09:26:00 +0000      Command exited with pid 9621 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/en.lproj/Localizable.strings
+    Stdout:
+        UTF-8 Unicode (with BOM) text
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+2019-03-28 09:26:00 +0000      Command exited with pid 9622 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+    Stdout:
+        Little-endian UTF-16 Unicode text
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+2019-03-28 09:26:00 +0000      Command exited with pid 9623 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+    Stdout:
+        UTF-8 Unicode text
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/PkgInfo
+2019-03-28 09:26:00 +0000      Command exited with pid 9624 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/PkgInfo
+    Stdout:
+        ASCII text, with no line terminators
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Qtest.html
+2019-03-28 09:26:00 +0000      Command exited with pid 9625 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Qtest.html
+    Stdout:
+        HTML document text, UTF-8 Unicode text, with very long lines
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+2019-03-28 09:26:00 +0000      Command exited with pid 9626 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+    Stdout:
+        Mach-O 64-bit executable arm64
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+2019-03-28 09:26:00 +0000      Command exited with pid 9627 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+    Stdout:
+        Non-fat file: /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech is architecture: arm64
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+2019-03-28 09:26:00 +0000      Command exited with pid 9628 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    39       5104   NOUNDEFS DYLDLINK TWOLEVEL PIE
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+2019-03-28 09:26:00 +0000      Command exited with pid 9630 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech
+    Stdout:
+        /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    39       5104   NOUNDEFS DYLDLINK TWOLEVEL PIE
+        Load command 0
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 1
+              cmd LC_SEGMENT_64
+          cmdsize 1032
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000000104000
+          fileoff 0
+         filesize 1064960
+          maxprot r-x
+         initprot r-x
+           nsects 12
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x0000000100007d78
+              size 0x00000000000cf498
+            offset 32120
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x00000001000d7210
+              size 0x0000000000000dd4
+            offset 881168
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x00000001000d7fe4
+              size 0x0000000000000dec
+            offset 884708
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __TEXT
+              addr 0x00000001000d8dd0
+              size 0x0000000000000740
+            offset 888272
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __ustring
+           segname __TEXT
+              addr 0x00000001000d9510
+              size 0x000000000000058a
+            offset 890128
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x00000001000d9a9a
+              size 0x0000000000012f90
+            offset 891546
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x00000001000eca30
+              size 0x000000000000d47f
+            offset 969264
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x00000001000f9eaf
+              size 0x00000000000012b5
+            offset 1023663
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+ 
+2019-03-28 09:26:00 +0000          reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x00000001000fb164
+              size 0x0000000000003a61
+            offset 1028452
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __gcc_except_tab
+           segname __TEXT
+              addr 0x00000001000febc8
+              size 0x0000000000002cf8
+            offset 1043400
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x00000001001018c0
+              size 0x00000000000026c0
+            offset 1054912
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __eh_frame
+           segname __TEXT
+              addr 0x0000000100103f80
+              size 0x0000000000000078
+            offset 1064832
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 1672
+          segname __DATA
+           vmaddr 0x0000000100104000
+           vmsize 0x0000000000044000
+          fileoff 1064960
+         filesize 262144
+          maxprot rw-
+         initprot rw-
+           nsects 20
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000100104000
+              size 0x0000000000000328
+            offset 1064960
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 295 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000100104328
+              size 0x0000000000000938
+            offset 1065768
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 396 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __const
+           segname __DATA
+              addr 0x0000000100104c60
+              size 0x00000000000032c0
+            offset 1068128
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x0000000100107f20
+              size 0x000000000000a020
+            offset 1081120
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000000100111f40
+              size 0x0000000000000630
+            offset 1122112
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlclslist
+           segname __DATA
+              addr 0x0000000100112570
+              size 0x0000000000000018
+            offset 1123696
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_catlist
+           segname __DATA
+              addr 0x0000000100112588
+              size 0x00000000000000c8
+            offset 1123720
+             align
+2019-03-28 09:26:00 +0000   2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlcatlist
+           segname __DATA
+              addr 0x0000000100112650
+              size 0x0000000000000010
+            offset 1123920
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000000100112660
+              size 0x0000000000000140
+            offset 1123936
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x00000001001127a0
+              size 0x0000000000000008
+            offset 1124256
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x00000001001127a8
+              size 0x0000000000025f50
+            offset 1124264
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x00000001001386f8
+              size 0x0000000000004c70
+            offset 1279736
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protorefs
+           segname __DATA
+              addr 0x000000010013d368
+              size 0x0000000000000010
+            offset 1299304
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x000000010013d378
+              size 0x0000000000000838
+            offset 1299320
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x000000010013dbb0
+              size 0x0000000000000410
+            offset 1301424
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x000000010013dfc0
+              size 0x0000000000000a1c
+            offset 1302464
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x000000010013e9e0
+              size 0x0000000000003de0
+            offset 1305056
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x00000001001427c0
+              size 0x0000000000001378
+            offset 1320896
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x0000000100143b40
+        
+2019-03-28 09:26:00 +0000        size 0x0000000000000998
+            offset 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x00000001001444d8
+              size 0x0000000000000019
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 152
+          segname __LLVM
+           vmaddr 0x0000000100148000
+           vmsize 0x00000000006d8000
+          fileoff 1327104
+         filesize 7176192
+          maxprot rw-
+         initprot rw-
+           nsects 1
+            flags NORELOC
+        Section
+          sectname __bundle
+           segname __LLVM
+              addr 0x0000000100148000
+              size 0x00000000006d4a71
+            offset 1327104
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x0000000100820000
+           vmsize 0x0000000000028000
+          fileoff 8503296
+         filesize 149248
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 5
+                    cmd LC_DYLD_INFO_ONLY
+                cmdsize 48
+             rebase_off 8503296
+            rebase_size 6384
+               bind_off 8509680
+              bind_size 8800
+          weak_bind_off 0
+         weak_bind_size 0
+          lazy_bind_off 8518480
+         lazy_bind_size 7808
+             export_off 8526288
+            export_size 11048
+        Load command 6
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 8543248
+           nsyms 528
+          stroff 8554460
+         strsize 12128
+        Load command 7
+                    cmd LC_DYSYMTAB
+                cmdsize 80
+              ilocalsym 0
+              nlocalsym 1
+             iextdefsym 1
+             nextdefsym 1
+              iundefsym 2
+              nundefsym 526
+                 tocoff 0
+                   ntoc 0
+              modtaboff 0
+                nmodtab 0
+           extrefsymoff 0
+            nextrefsyms 0
+         indirectsymoff 8551696
+          nindirectsyms 691
+              extreloff 0
+                nextrel 0
+              locreloff 0
+                nlocrel 0
+        Load command 8
+                  cmd LC_LOAD_DYLINKER
+              cmdsize 32
+                 name /usr/lib/dyld (offset 12)
+        Load command 9
+             cmd LC_UUID
+         cmdsize 24
+            uuid 9C2E5956-AF39-344B-BC43-463F3952DF58
+        Load command 10
+               cmd LC_BUILD_VERSION
+           cmdsize 32
+          platform ios
+               sdk 12.1
+             minos 12.0
+            ntools 1
+              tool ld
+           version 409.12
+        Load command 11
+              cmd LC_SOURCE_VERSION
+          cmdsize 16
+          version 0.0
+        Load command 12
+               cmd LC_MAIN
+           cmdsize 24
+          entryoff 81976
+         stacksize 0
+        Load command 13
+                  cmd LC_ENCRYPTION_INFO_64
+              cmdsize 24
+             cryptoff 16384
+            cryptsize 1048576
+              cryptid 0
+                  pad 0
+        Load command 14
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libsqlite3.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 274.20.0
+        compatibility version 9.0.0
+        Load command 15
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libxml2.2.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 10.9.0
+        compatibility version 10.0.0
+        Load c
+2019-03-28 09:26:00 +0000  ommand 16
+                  cmd LC_LOAD_DYLIB
+              cmdsize 48
+                 name /usr/lib/libz.1.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.2.11
+        compatibility version 1.0.0
+        Load command 17
+                  cmd LC_LOAD_DYLIB
+              cmdsize 96
+                 name /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1560.10.0
+        compatibility version 150.0.0
+        Load command 18
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1245.9.2
+        compatibility version 64.0.0
+        Load command 19
+                  cmd LC_LOAD_DYLIB
+              cmdsize 96
+                 name /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 0.0.0
+        compatibility version 1.0.0
+        Load command 20
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/Foundation.framework/Foundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1560.10.0
+        compatibility version 300.0.0
+        Load command 21
+                  cmd LC_LOAD_DYLIB
+              cmdsize 104
+                 name /System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 935.2.0
+        compatibility version 1.0.0
+        Load command 22
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/QuartzCore.framework/QuartzCore (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.11.0
+        compatibility version 1.2.0
+        Load command 23
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/Security.framework/Security (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 58286.222.2
+        compatibility version 1.0.0
+        Load command 24
+                  cmd LC_LOAD_DYLIB
+              cmdsize 104
+                 name /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 963.200.27
+        compatibility version 1.0.0
+        Load command 25
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libobjc.A.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 228.0.0
+        compatibility version 1.0.0
+        Load command 26
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libSystem.B.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1252.200.5
+        compatibility version 1.0.0
+        Load command 27
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/AVFoundation.framework/AVFoundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 2.0.0
+        compatibility version 1.0.0
+        Load command 28
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CFNetwork.framework/CFNetwork (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 975.0.3
+        compatibility version 1.0.0
+        Load command 29
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreImage.framework/CoreImage (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+         
+2019-03-28 09:26:00 +0000       current version 5.0.0
+        compatibility version 1.0.0
+        Load command 30
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreMedia.framework/CoreMedia (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 31
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreServices.framework/CoreServices (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 935.2.0
+        compatibility version 1.0.0
+        Load command 32
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/ImageIO.framework/ImageIO (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 0.0.0
+        compatibility version 1.0.0
+        Load command 33
+                  cmd LC_LOAD_DYLIB
+              cmdsize 96
+                 name /System/Library/Frameworks/SafariServices.framework/SafariServices (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 34
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/UIKit.framework/UIKit (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 61000.0.0
+        compatibility version 1.0.0
+        Load command 35
+                  cmd LC_RPATH
+              cmdsize 40
+                 path @executable_path/Frameworks (offset 12)
+        Load command 36
+              cmd LC_FUNCTION_STARTS
+          cmdsize 16
+          dataoff 8537336
+         datasize 5792
+        Load command 37
+              cmd LC_DATA_IN_CODE
+          cmdsize 16
+          dataoff 8543128
+         datasize 120
+        Load command 38
+              cmd LC_CODE_SIGNATURE
+          cmdsize 16
+          dataoff 8566592
+         datasize 85952
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/_CodeSignature/CodeResources
+2019-03-28 09:26:00 +0000      Command exited with pid 9632 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/_CodeSignature/CodeResources
+    Stdout:
+        XML 1.0 document text, ASCII text
+    
+    Stderr:
+    
+2019-03-28 09:26:00 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/embedded.mobileprovision
+2019-03-28 09:26:00 +0000      Command exited with pid 9633 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/embedded.mobileprovision
+    Stdout:
+        data
+    
+    Stderr:
+    
+2019-03-28 09:26:01 +0000  Complete LinkageGraph:
+    WebTech.app/WebTech arm64 ->
+2019-03-28 09:26:01 +0000  Validating IPA structure...
+2019-03-28 09:26:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech --generate-dsym /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM --strip-swift-symbols /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-in/arm64/Payload/WebTech.app/WebTech
+2019-03-28 09:26:01 +0000  Compiling bitcode...
+  Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'WebTech'
+2019-03-28 09:26:08 +0000      Command exited with pid 9661 exit 0:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech --generate-dsym /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM --strip-swift-symbols /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-in/arm64/Payload/WebTech.app/WebTech
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-in/arm64/Payload/WebTech.app/WebTech"
+        -= Output =-
+        Non-fat file: /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-in/arm64/Payload/WebTech.app/WebTech is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-in/arm64/Payload/WebTech.app/WebTech"
+        -= Output =-
+        UUID: 9C2E5956-AF39-344B-BC43-463F3952DF58 (arm64) /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-in/arm64/Payload/WebTech.app/WebTech
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-in/arm64/Payload/WebTech.app/WebTech" "-extract" "__LLVM" "__bundle" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/WebTechKJDJKP/WebTech.arm64.xar"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "001" "-o" "001.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "002" "-o" "002.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+   
+2019-03-28 09:26:08 +0000       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "003" "-o" "003.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "004" "-o" "004.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "005" "-o" "005.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "006" "-o" "006.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "007" "-o" "007.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "008" "-o" "008.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "009" "-o" "009.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "010" "-o" "010.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "011" "-o" "011.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "012" "-o" "012.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applicati
+2019-03-28 09:26:08 +0000  ons/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "013" "-o" "013.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "014" "-o" "014.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "015" "-o" "015.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "016" "-o" "016.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "017" "-o" "017.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "018" "-o" "018.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "019" "-o" "019.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "020" "-o" "020.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "021" "-o" "021.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "022" "-o" "022.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Co
+2019-03-28 09:26:08 +0000  ntents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "023" "-o" "023.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "024" "-o" "024.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "025" "-o" "025.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "026" "-o" "026.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "027" "-o" "027.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "028" "-o" "028.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "029" "-o" "029.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "030" "-o" "030.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "031" "-o" "031.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "032" "-o" "032.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer
+2019-03-28 09:26:08 +0000  /Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "033" "-o" "033.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "034" "-o" "034.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "035" "-o" "035.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "036" "-o" "036.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "037" "-o" "037.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "038" "-o" "038.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "039" "-o" "039.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "040" "-o" "040.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "041" "-o" "041.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "042" "-o" "042.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/Xcod
+2019-03-28 09:26:08 +0000  eDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "043" "-o" "043.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "044" "-o" "044.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "045" "-o" "045.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "046" "-o" "046.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "047" "-o" "047.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "048" "-o" "048.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "049" "-o" "049.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "050" "-o" "050.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "051" "-o" "051.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "052" "-o" "052.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+2019-03-28 09:26:08 +0000  /usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "053" "-o" "053.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "054" "-o" "054.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "055" "-o" "055.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "056" "-o" "056.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "057" "-o" "057.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "058" "-o" "058.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "059" "-o" "059.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "060" "-o" "060.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "061" "-o" "061.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "062" "-o" "062.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-t
+2019-03-28 09:26:08 +0000  riple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "063" "-o" "063.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "064" "-o" "064.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "065" "-o" "065.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "066" "-o" "066.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "067" "-o" "067.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "068" "-o" "068.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "069" "-o" "069.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "070" "-o" "070.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "071" "-o" "071.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "072" "-o" "072.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0
+2019-03-28 09:26:08 +0000  .0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "073" "-o" "073.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "074" "-o" "074.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "075" "-o" "075.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "076" "-o" "076.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "077" "-o" "077.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "078" "-o" "078.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "079" "-o" "079.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "080" "-o" "080.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "081" "-o" "081.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "082" "-o" "082.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-
+2019-03-28 09:26:08 +0000  llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "083" "-o" "083.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "084" "-o" "084.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "085" "-o" "085.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "086" "-o" "086.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "087" "-o" "087.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "088" "-o" "088.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "089" "-o" "089.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "090" "-o" "090.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "091" "-o" "091.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "092" "-o" "092.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi"
+2019-03-28 09:26:08 +0000   "darwinpcs" "-Os" "-x" "ir" "093" "-o" "093.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "095" "-o" "095.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "096" "-o" "096.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "097" "-o" "097.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "098" "-o" "098.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "099" "-o" "099.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "100" "-o" "100.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "101" "-o" "101.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "102" "-o" "102.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "103" "-o" "103.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "i
+2019-03-28 09:26:08 +0000  r" "104" "-o" "104.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "105" "-o" "105.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "106" "-o" "106.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "107" "-o" "107.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "108" "-o" "108.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "109" "-o" "109.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "110" "-o" "110.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "111" "-o" "111.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "112" "-o" "112.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "113" "-o" "113.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "114" "-o" "114.o"
+    
+2019-03-28 09:26:08 +0000      -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "115" "-o" "115.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "116" "-o" "116.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "117" "-o" "117.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "118" "-o" "118.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "119" "-o" "119.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "120" "-o" "120.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "121" "-o" "121.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "122" "-o" "122.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "123" "-o" "123.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "124" "-o" "124.o"
+        -= Output =-
+        E
+2019-03-28 09:26:08 +0000  xited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "125" "-o" "125.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "126" "-o" "126.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "127" "-o" "127.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "128" "-o" "128.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "129" "-o" "129.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "130" "-o" "130.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "131" "-o" "131.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "132" "-o" "132.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "133" "-o" "133.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "134" "-o" "134.o"
+        -= Output =-
+        Exited with 0
+        
+    
+2019-03-28 09:26:08 +0000      Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "135" "-o" "135.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "136" "-o" "136.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "137" "-o" "137.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "138" "-o" "138.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "139" "-o" "139.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "140" "-o" "140.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "141" "-o" "141.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "142" "-o" "142.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "143" "-o" "143.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "144" "-o" "144.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 
+2019-03-28 09:26:08 +0000  seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "145" "-o" "145.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "146" "-o" "146.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "147" "-o" "147.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "148" "-o" "148.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "149" "-o" "149.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios5.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "150" "-o" "150.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "151" "-o" "151.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "152" "-o" "152.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "153" "-o" "153.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "154" "-o" "154.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd 
+2019-03-28 09:26:08 +0000  /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "155" "-o" "155.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "156" "-o" "156.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "157" "-o" "157.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "158" "-o" "158.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "159" "-o" "159.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "160" "-o" "160.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "161" "-o" "161.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "162" "-o" "162.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "163" "-o" "163.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "164" "-o" "164.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167
+2019-03-28 09:26:08 +0000  v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "165" "-o" "165.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "166" "-o" "166.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios12.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "167" "-o" "167.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        CopyFile: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/usr/bin/ditto" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd/094" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd/094.o"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libsqlite3.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libxml2.2.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libz.1.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Security.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.p
+2019-03-28 09:26:08 +0000  latform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SafariServices.framework/SafariServices.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/tempGIJQfd
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "12.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/huangxianshuai/Library/Developer/Xcode/DerivedData/WebTech-ckwiofnzxoggbubouomfbkuyzkpo/Build/Intermediates.noindex/ArchiveIntermediates/WebTech/InstallationBuildProductsLocation/Applications/WebTech.app/WebTech" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk" "-sdk_version" "12.1.0" "-filelist" "/private/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/WebTechKJDJKP/WebTech.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libsqlite3.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libxml2.2.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libz.1.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Librar
+2019-03-28 09:26:08 +0000  y/Frameworks/QuartzCore.framework/QuartzCore.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Security.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SafariServices.framework/SafariServices.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/WebTechKJDJKP/WebTech.arm64.out"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-in/arm64/Payload/WebTech.app/WebTech
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech"
+        -= Output =-
+        UUID: 5284B88D-0A10-372A-923D-E83C6F04C3A5 (arm64) /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech" "-o" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xc
+2019-03-28 09:26:08 +0000  ode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech"
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+    
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech
+2019-03-28 09:26:08 +0000      Command exited with pid 9841 exit 0:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech
+    Stdout:
+        /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech [arm64, 0.033865 seconds]:
+    
+    Stderr:
+    
+2019-03-28 09:26:08 +0000  /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+2019-03-28 09:26:08 +0000      Command exited with pid 9842 exit 0:
+    /usr/bin/file -b -- /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+    Stdout:
+        Mach-O 64-bit dSYM companion file arm64
+    
+    Stderr:
+    
+2019-03-28 09:26:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+2019-03-28 09:26:08 +0000      Command exited with pid 9843 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+    Stdout:
+        Non-fat file: /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech is architecture: arm64
+    
+    Stderr:
+    
+2019-03-28 09:26:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+2019-03-28 09:26:08 +0000      Command exited with pid 9844 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3848 0x00000000
+    
+    Stderr:
+    
+2019-03-28 09:26:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+2019-03-28 09:26:08 +0000      Command exited with pid 9846 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+    Stdout:
+        /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3848 0x00000000
+        Load command 0
+             cmd LC_UUID
+         cmdsize 24
+            uuid 5284B88D-0A10-372A-923D-E83C6F04C3A5
+        Load command 1
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 4096
+           nsyms 5573
+          stroff 93264
+         strsize 77196
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 1032
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000000100000
+          fileoff 0
+         filesize 0
+          maxprot r-x
+         initprot r-x
+           nsects 12
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x000000010000416c
+              size 0x00000000000cf0a4
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x00000001000d3210
+              size 0x0000000000000dd4
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x00000001000d3fe4
+              size 0x0000000000000dec
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __TEXT
+              addr 0x00000001000d4dd0
+              size 0x0000000000000740
+            offset 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __ustring
+           segname __TEXT
+              addr 0x00000001000d5510
+              size 0x000000000000058a
+            offset 0
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x00000001000d5a9a
+              size 0x0000000000012f90
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x00000001000e8a30
+              size 0x000000000000d47f
+            offset 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+  
+2019-03-28 09:26:08 +0000        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x00000001000f5eaf
+              size 0x00000000000012b5
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x00000001000f7164
+              size 0x0000000000003a61
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __gcc_except_tab
+           segname __TEXT
+              addr 0x00000001000fabc8
+              size 0x0000000000002cf8
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x00000001000fd8c0
+              size 0x00000000000026c8
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __eh_frame
+           segname __TEXT
+              addr 0x00000001000fff88
+              size 0x0000000000000078
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT_64
+          cmdsize 1672
+          segname __DATA
+           vmaddr 0x0000000100100000
+           vmsize 0x0000000000044000
+          fileoff 0
+         filesize 0
+          maxprot rw-
+         initprot rw-
+           nsects 20
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000100100000
+              size 0x0000000000000328
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 295 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000100100328
+              size 0x0000000000000938
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 396 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __const
+           segname __DATA
+              addr 0x0000000100100c60
+              size 0x00000000000032c0
+            offset 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x0000000100103f20
+              size 0x000000000000a020
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x000000010010df40
+              size 0x0000000000000630
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlclslist
+           segname __DATA
+              addr 0x000000010010e570
+              size 0x0000000000000018
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attribu
+2019-03-28 09:26:08 +0000  tes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_catlist
+           segname __DATA
+              addr 0x000000010010e588
+              size 0x00000000000000c8
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlcatlist
+           segname __DATA
+              addr 0x000000010010e650
+              size 0x0000000000000010
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x000000010010e660
+              size 0x0000000000000140
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x000000010010e7a0
+              size 0x0000000000000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x000000010010e7a8
+              size 0x0000000000025f50
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x00000001001346f8
+              size 0x0000000000004c70
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protorefs
+           segname __DATA
+              addr 0x0000000100139368
+              size 0x0000000000000010
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x0000000100139378
+              size 0x0000000000000838
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x0000000100139bb0
+              size 0x0000000000000410
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x0000000100139fc0
+              size 0x0000000000000a1c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x000000010013a9e0
+              size 0x0000000000003de0
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x000000010013e7c0
+              size 0x0000000000001378
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGU
+2019-03-28 09:26:08 +0000  LAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x000000010013fb40
+              size 0x0000000000000998
+            offset 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x00000001001404d8
+              size 0x0000000000000019
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 5
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x0000000100144000
+           vmsize 0x0000000000029000
+          fileoff 4096
+         filesize 166364
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 6
+              cmd LC_SEGMENT_64
+          cmdsize 952
+          segname __DWARF
+           vmaddr 0x000000010016d000
+           vmsize 0x0000000000049000
+          fileoff 172032
+         filesize 296256
+          maxprot rwx
+         initprot rw-
+           nsects 11
+            flags (none)
+        Section
+          sectname __debug_line
+           segname __DWARF
+              addr 0x000000010016d000
+              size 0x00000000000186d0
+            offset 172032
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_pubnames
+           segname __DWARF
+              addr 0x00000001001856d0
+              size 0x000000000000b8e6
+            offset 272080
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_aranges
+           segname __DWARF
+              addr 0x0000000100190fb6
+              size 0x00000000000013a0
+            offset 319414
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_info
+           segname __DWARF
+              addr 0x0000000100192356
+              size 0x000000000000d61b
+            offset 324438
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_ranges
+           segname __DWARF
+              addr 0x000000010019f971
+              size 0x0000000000000390
+            offset 379249
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_abbrev
+           segname __DWARF
+              addr 0x000000010019fd01
+              size 0x00000000000000ce
+            offset 380161
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_str
+           segname __DWARF
+              addr 0x000000010019fdcf
+              size 0x00000000000080ad
+            offset 380367
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_names
+           segname __DWARF
+              addr 0x00000001001a7e7c
+              size 0x000000000000d64c
+            offset 413308
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         res
+2019-03-28 09:26:08 +0000  erved1 0
+         reserved2 0
+        Section
+          sectname __apple_namespac
+           segname __DWARF
+              addr 0x00000001001b54c8
+              size 0x0000000000000024
+            offset 468168
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_types
+           segname __DWARF
+              addr 0x00000001001b54ec
+              size 0x0000000000000030
+            offset 468204
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_objc
+           segname __DWARF
+              addr 0x00000001001b551c
+              size 0x0000000000000024
+            offset 468252
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+    
+    Stderr:
+    
+2019-03-28 09:26:08 +0000  warning: Could not determine platform for arm64 in /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech
+2019-03-28 09:26:08 +0000  Creating universal IPA contents for all variants
+  Creating directory /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/IDEIPAProcessor.AppThinning.qpT/universal
+  Copying WebTech.app output payload directory
+2019-03-28 09:26:08 +0000  /Library/Ruby/Gems/2.3.0/gems/CFPropertyList-3.0.0/lib/cfpropertylist/rbCFPropertyList.rb:378: warning: File.exists? is a deprecated name, use File.exist? instead
+2019-03-28 09:26:08 +0000    Copying .dSYM files to /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/IDEIPAProcessor.AppThinning.qpT/universal/dSYMs
+  Copying .symbols files to /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/IDEIPAProcessor.AppThinning.qpT/universal/Symbols
+2019-03-28 09:26:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2019-03-28 09:26:08 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 3299;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 3299;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 3299;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 1782;
+            description = "Could not determine platform for arm64 in /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/ipatool20190328-9595-2azmb6/thinned-out/arm64/Payload/WebTech.app/WebTech.dSYM/Contents/Resources/DWARF/WebTech";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+        "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/Assets.car"
+    );
+    universalIPA =     {
+        path = "/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/IDEIPAProcessor.AppThinning.qpT/universal";
+    };
+}
+2019-03-28 09:26:08 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-03-28 09:26:08 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-03-28 09:26:08 +0000  Processing step: IDEDistributionSymbolsStep
+2019-03-28 09:26:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-03-28 09:26:08 +0000  Processing step: IDEDistributionAppThinningStep
+2019-03-28 09:26:08 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-03-28 09:26:08 +0000  Processing step: IDEDistributionArchThinningStep
+2019-03-28 09:26:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app/WebTech' '-verify_arch' 'arm64e'
+2019-03-28 09:26:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-03-28 09:26:08 +0000  Skipping architecture thinning for item "WebTech" because arch "arm64e" wasn't found
+2019-03-28 09:26:08 +0000  Processing step: IDEDistributionODRStep
+2019-03-28 09:26:08 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-03-28 09:26:08 +0000  Running /usr/bin/xattr '-crs' '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app'
+2019-03-28 09:26:08 +0000  /usr/bin/xattr exited with 0
+2019-03-28 09:26:08 +0000  Processing step: IDEDistributionCodesignStep
+2019-03-28 09:26:08 +0000  Entitlements for <IDEDistributionItem: 0x7fa800ce6f50 'com.qishare.webtech' '<DVTFilePath:0x7fa801e49330:'/Users/huangxianshuai/Library/Developer/Xcode/Archives/2019-03-28/WebTech 2019-3-28 下午5.25.xcarchive/Products/Applications/WebTech.app'>'>: {
+    "application-identifier" = "RR72T9X762.com.qishare.webtech";
+    "com.apple.developer.team-identifier" = RR72T9X762;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "RR72T9X762.com.qishare.webtech"
+    );
+}
+2019-03-28 09:26:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa800ce6f50 'com.qishare.webtech' '<DVTFilePath:0x7fa801e49330:'/Users/huangxianshuai/Library/Developer/Xcode/Archives/2019-03-28/WebTech 2019-3-28 下午5.25.xcarchive/Products/Applications/WebTech.app'>'> to: /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/entitlementshCfRNe
+2019-03-28 09:26:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '0E3C4B9F16EF127B93852BC7DB0C1E4D869D82DA' '--entitlements' '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/entitlementshCfRNe' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app'
+2019-03-28 09:26:09 +0000  /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root/Payload/WebTech.app: signed app bundle with Mach-O thin (arm64) [com.qishare.webtech]
+2019-03-28 09:26:09 +0000  /usr/bin/codesign exited with 0
+2019-03-28 09:26:09 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-03-28 09:26:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-03-28 09:26:09 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-03-28 09:26:09 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root' '/var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Packages/WebTech.ipa'
+2019-03-28 09:26:09 +0000  >>> Copying /var/folders/_d/b3lhmwy167v7315rtdz8y7s00000gn/T/XcodeDistPipeline.d5B/Root 
+2019-03-28 09:26:09 +0000  copying file ./Payload/WebTech.app/_CodeSignature/CodeResources ... 
+2019-03-28 09:26:09 +0000  7068 bytes for ./Payload/WebTech.app/_CodeSignature/CodeResources
+2019-03-28 09:26:09 +0000  copying file ./Payload/WebTech.app/AppIcon60x60@2x.png ... 
+2019-03-28 09:26:09 +0000  15583 bytes for ./Payload/WebTech.app/AppIcon60x60@2x.png
+copying file ./Payload/WebTech.app/AppIcon76x76@2x~ipad.png ... 
+2019-03-28 09:26:09 +0000  20592 bytes for ./Payload/WebTech.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/WebTech.app/Assets.car ... 
+2019-03-28 09:26:09 +0000  4558968 bytes for ./Payload/WebTech.app/Assets.car
+copying file ./Payload/WebTech.app/embedded.mobileprovision ... 
+2019-03-28 09:26:09 +0000  9712 bytes for ./Payload/WebTech.app/embedded.mobileprovision
+copying file ./Payload/WebTech.app/Info.plist ... 
+2019-03-28 09:26:09 +0000  5923 bytes for ./Payload/WebTech.app/Info.plist
+copying file ./Payload/WebTech.app/LaunchImage-1100-Portrait-2436h@3x.png ... 
+2019-03-28 09:26:09 +0000  170467 bytes for ./Payload/WebTech.app/LaunchImage-1100-Portrait-2436h@3x.png
+copying file ./Payload/WebTech.app/LaunchImage-1200-Portrait-1792h@2x.png ... 
+2019-03-28 09:26:09 +0000  127738 bytes for ./Payload/WebTech.app/LaunchImage-1200-Portrait-1792h@2x.png
+copying file ./Payload/WebTech.app/LaunchImage-1200-Portrait-2688h@3x.png ... 
+2019-03-28 09:26:09 +0000  173665 bytes for ./Payload/WebTech.app/LaunchImage-1200-Portrait-2688h@3x.png
+copying file ./Payload/WebTech.app/LaunchImage-700-568h@2x.png ... 
+2019-03-28 09:26:09 +0000  98276 bytes for ./Payload/WebTech.app/LaunchImage-700-568h@2x.png
+copying file ./Payload/WebTech.app/LaunchImage-700-Portrait@2x~ipad.png ... 
+2019-03-28 09:26:09 +0000  179479 bytes for ./Payload/WebTech.app/LaunchImage-700-Portrait@2x~ipad.png
+copying file ./Payload/WebTech.app/LaunchImage-700-Portrait~ipad.png ... 
+2019-03-28 09:26:09 +0000  87555 bytes for ./Payload/WebTech.app/LaunchImage-700-Portrait~ipad.png
+copying file ./Payload/WebTech.app/LaunchImage-700@2x.png ... 
+2019-03-28 09:26:09 +0000  95955 bytes for ./Payload/WebTech.app/LaunchImage-700@2x.png
+copying file ./Payload/WebTech.app/LaunchImage-800-667h@2x.png ... 
+2019-03-28 09:26:09 +0000  118003 bytes for ./Payload/WebTech.app/LaunchImage-800-667h@2x.png
+copying file ./Payload/WebTech.app/LaunchImage-800-Portrait-736h@3x.png ... 
+2019-03-28 09:26:09 +0000  169903 bytes for ./Payload/WebTech.app/LaunchImage-800-Portrait-736h@3x.png
+2019-03-28 09:26:09 +0000  copying file ./Payload/WebTech.app/MJRefresh.bundle/arrow@2x.png ... 
+1033 bytes for ./Payload/WebTech.app/MJRefresh.bundle/arrow@2x.png
+copying file ./Payload/WebTech.app/MJRefresh.bundle/en.lproj/Localizable.strings ... 
+691 bytes for ./Payload/WebTech.app/MJRefresh.bundle/en.lproj/Localizable.strings
+2019-03-28 09:26:09 +0000  copying file ./Payload/WebTech.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings ... 
+1194 bytes for ./Payload/WebTech.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+copying file ./Payload/WebTech.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings ... 
+2019-03-28 09:26:09 +0000  773 bytes for ./Payload/WebTech.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+copying file ./Payload/WebTech.app/PkgInfo ... 
+8 bytes for ./Payload/WebTech.app/PkgInfo
+copying file ./Payload/WebTech.app/Qtest.html ... 
+2019-03-28 09:26:09 +0000  38427 bytes for ./Payload/WebTech.app/Qtest.html
+copying file ./Payload/WebTech.app/WebTech ... 
+2019-03-28 09:26:09 +0000  1399072 bytes for ./Payload/WebTech.app/WebTech
+2019-03-28 09:26:09 +0000  /usr/bin/ditto exited with 0
+2019-03-28 09:26:09 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-03-28 09:26:09 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-03-28 09:26:09 +0000  Processing step: IDEDistributionCreateManifestStep
